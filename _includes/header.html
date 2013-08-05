@@ -1,0 +1,60 @@
+<header>
+    <!-- Navbar
+        ================================================== -->
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <!-- logo -->
+                <a class="brand logo" href="index.html">
+                    <img src="{{site.baseulr}}/assets/img/demi-logo.jpg" alt="" />
+                </a>
+                <!-- end logo -->
+                <!-- top menu -->
+                <div class="navigation">
+                    <nav>
+                        <ul class="nav topnav">
+                            {% if page.url == '/index.html' or page.url == '/' %}
+                            <li class="dropdown active">
+                                <a href="{{site.baseurl}}/index.html">Home</a>
+                            </li>
+                            {% else %}
+                            <li class="dropdown">
+                                <a href="{{site.baseurl}}/index.html">Home</a>
+                            </li>
+                            {% endif %}
+                            {% if page.url == '/archives/index.html' %}
+                            <li class="dropdown active">
+                                <a href="{{site.baseurl}}/archives/">文章列表</a>
+                            </li>
+                            {% else %}
+                            <li class="dropdown ">
+                                <a href="{{site.baseurl}}/archives/">文章列表</a>
+                            </li>
+                            {% endif %}
+
+                            <li class="dropdown">
+                                <a href="#">研发实践</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">熊猫吃货</a>
+                            </li>
+                            {% if page.url == '/life/index.html' %}
+                            <li class="dropdown active">
+                                <a href="{{site.baseurl}}/life/index.html">微生活</a>
+                            </li>
+                            {% else %}
+                            <li class="dropdown">
+                                <a href="{{site.baseurl}}/life/index.html">微生活</a>
+                            </li>
+                            {% endif %}
+                            <li>
+                                <a href="contact.html">关于我</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- end menu -->
+            </div>
+        </div>
+    </div>
+</header>

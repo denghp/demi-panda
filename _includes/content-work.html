@@ -1,0 +1,183 @@
+<section id="maincontent">
+<div class="container">
+<div class="row">
+    <div class="span3 features">
+        <i class="icon-circled icon-32 icon-suitcase left active"></i>
+        <h4>Responsive bootstrap</h4>
+        <div class="dotted_line">
+        </div>
+        <p class="left">
+            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+        </p>
+        <a href="#">Learn more</a>
+    </div>
+    <div class="span3 features">
+        <i class="icon-circled icon-32 icon-plane left"></i>
+        <h4>Lot of features</h4>
+        <div class="dotted_line">
+        </div>
+        <p class="left">
+            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+        </p>
+        <a href="#">Learn more</a>
+    </div>
+    <div class="span3 features">
+        <i class="icon-circled icon-32 icon-leaf left"></i>
+        <h4>Multipurpose template</h4>
+        <div class="dotted_line">
+        </div>
+        <p class="left">
+            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+        </p>
+        <a href="#">Learn more</a>
+    </div>
+    <div class="span3 features">
+        <i class="icon-circled icon-32 icon-wrench left"></i>
+        <h4>With latest technology</h4>
+        <div class="dotted_line">
+        </div>
+        <p class="left">
+            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
+        </p>
+        <a href="#">Learn more</a>
+    </div>
+</div>
+
+<div class="row">
+<ul class="portfolio-area da-thumbs">
+<div class="span12">
+    <h3>最新博文推荐</h3>
+</div>
+    {% for post in site.posts limit:8 %}
+    <li class="portfolio-item2" data-id="id-0" data-type="photo">
+        <div class="span3">
+            <div class="thumbnail">
+                <div class="image-wrapp">
+                    {% if post.show_img %}
+                    <img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" />
+                    {% else %}
+                    <img src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}" />
+                    {% endif %}
+                    <article class="da-animate da-slideFromRight" style="display: block;">
+                        <h4>{{ post.title }}</h4>
+                        <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
+                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                        </a></span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+    <!--
+{% for post in site.posts limit:8 %}
+    <li class="portfolio-item2" data-id="id-0" data-type="photo">
+    <div class="span3">
+        <div class="thumbnail">
+            <div class="image-wrapp">
+                <img src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}" title="{{post.title}}"/>
+                <article class="da-animate da-slideFromRight" style="display: block;">
+                    <h4>
+                        {{ post.title }}
+                    </h4>
+                    <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+						<span>
+                            <a class="zoom" data-pretty="prettyPhoto"
+                               href="{{site.baseulr}}/assets/img/dummies/blog2.jpg">
+                                <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                            </a>
+                        </span>
+                </article>
+                <div class="entry-meta">
+                    <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
+					<span class="date">{{ post.date | date:"%m-%d" }} <br/>
+					{{ post.date | date:"%Y" }}</span>
+                </div>
+                <div class="entry-body">
+                    <a href="single-post.html">
+                        <h5 class="title">{{post.title}}</h5>
+                    </a>
+                    <p>
+                        {% if post.description %}
+                        {{ post.description }}
+                        {% else %}
+                        {{ post.content | strip_html | truncatewords: 2 }}
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</li>
+{% endfor %}
+    -->
+    <li class="portfolio-item2" data-id="id-0" data-type="photo">
+        <div class="span3">
+            <div class="thumbnail">
+                <div class="image-wrapp">
+                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
+                    <article class="da-animate da-slideFromRight" style="display: block;">
+                        <h4>Portfolio name</h4>
+                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
+                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                        </a></span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="portfolio-item2" data-id="id-0" data-type="graphic">
+        <div class="span3">
+            <div class="thumbnail">
+                <div class="image-wrapp">
+                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
+                    <article class="da-animate da-slideFromRight" style="display: block;">
+                        <h4>Portfolio name</h4>
+                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
+                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                        </a></span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="portfolio-item2" data-id="id-0" data-type="graphic">
+        <div class="span3">
+            <div class="thumbnail">
+                <div class="image-wrapp">
+                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
+                    <article class="da-animate da-slideFromRight" style="display: block;">
+                        <h4>Portfolio name</h4>
+                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
+                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                        </a></span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="portfolio-item2" data-id="id-0" data-type="photo">
+        <div class="span3">
+            <div class="thumbnail">
+                <div class="image-wrapp">
+                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
+                    <article class="da-animate da-slideFromRight" style="display: block;">
+                        <h4>Portfolio name</h4>
+                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
+                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                        </a></span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+</div>
+</div>
+</section>

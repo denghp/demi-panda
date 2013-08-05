@@ -1,0 +1,135 @@
+---
+layout: default
+title: 全部文章-研发实践、熊猫吃货、微生活
+initItem: 10
+perPageItem: 10
+---
+
+{% include emergency_news.html %}
+
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <!-- start article 1 -->
+                {% for post in site.posts limit:page.initItem %}
+                <article class="blog-post">
+                    <div class="post-heading">
+                        <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3>
+                    </div>
+                    <div class="row">
+                        <div class="span3">
+                            <div class="post-image">
+                                {% if post.show_img %}
+                                <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
+                                {% else %}
+                                <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}" /></a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="span5">
+                            <ul class="post-meta">
+                                <li class="first"><i class="icon-calendar"></i><span>{{ post.date | date:"%Y-%m-%d" }}</span></li>
+                                <li><i class="icon-list-alt"></i><span><a href="#">3 comments</a></span></li>
+                                <li class="last"><i class="icon-tags"></i><span>
+                                    {% if post.tags %}
+                                        {% for tag in post.tags limit:5 %}
+                                            <a href="{{ site.baseurl }}/tags/#{{tag}}" class="text" title="{{ tag }}" rel="category tag">{{ tag }}</a>&nbsp;
+                                        {% endfor %}
+                                    {% endif %}
+                                </span>
+                                </li>
+                            </ul>
+                            <div class="clearfix">
+                            </div>
+                            <p>
+                                {% if post.description %}
+                                     {{ post.description }}
+                                {% else %}
+                                {{ post.content | strip_html | truncatewords: 3 }}
+                                {% endif %}
+                            </p>
+                            <button class="btn btn-small btn-success" type="button">Read more</button>
+                        </div>
+                    </div>
+                </article>
+                {% endfor %}
+                <!-- end article 1 -->
+                <!-- start article 2 -->
+                <article class="blog-post">
+                    <div class="post-heading">
+                        <h3><a href="#">This post uses nice video post format</a></h3>
+                    </div>
+                    <div class="row">
+                        <div class="span3">
+                            <div class="post-slider">
+                                <!-- start flexslider -->
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                        <li>
+                                            <a href="singlepost.html"><img src="{{site.static_url}}/assets/img/dummies/work1.jpg" alt="" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="singlepost.html"><img src="{{site.static_url}}/assets/img/dummies/work2.jpg" alt="" /></a>
+                                        </li>
+                                        <li>
+                                            <a href="singlepost.html"><img src="{{site.static_url}}/assets/img/dummies/work3.jpg" alt="" /></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end flexslider -->
+                            </div>
+                        </div>
+                        <div class="span5">
+                            <ul class="post-meta">
+                                <li class="first"><i class="icon-user"></i><span>March 03, 2013</span></li>
+                                <li><i class="icon-list-alt"></i><span><a href="#">3 comments</a></span></li>
+                                <li class="last"><i class="icon-tags"></i><span><a href="#">Design</a>, <a href="#">Blog</a>, <a href="#">Tutorial</a></span></li>
+                            </ul>
+                            <div class="clearfix">
+                            </div>
+                            <p>
+                                Ei eos suavitate forensibus mnesarchum. Eu est timeam vocibus, an nostro aliquam adipiscing quo. Zril equidem et quo, ad albucius scripserit sit. Vis constituto deseruisse an, interesset reprehendunt et mel, gloriatur concludaturque pro no. At ludus mediocritatem qui, no vituperata assueverit accommodare his.
+                            </p>
+                            <button class="btn btn-small btn-success" type="button">Read more</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- end article 2 -->
+                <!-- start article 3 -->
+                <article class="blog-post">
+                    <div class="post-heading">
+                        <h3><a href="#">Great blog post with quote post format</a></h3>
+                    </div>
+                    <div class="row">
+                        <div class="span3">
+                            <div class="post-quote">
+                                <blockquote>
+                                    Lorem ipsum dolor sit amet, vidit postea ex nec, tantas eruditi conceptam eu vim
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="span5">
+                            <ul class="post-meta">
+                                <li class="first"><i class="icon-user"></i><span>March 03, 2013</span></li>
+                                <li><i class="icon-list-alt"></i><span><a href="#">3 comments</a></span></li>
+                                <li class="last"><i class="icon-tags"></i><span><a href="#">Design</a>, <a href="#">Blog</a>, <a href="#">Tutorial</a></span></li>
+                            </ul>
+                            <div class="clearfix">
+                            </div>
+                            <p>
+                                Ei eos suavitate forensibus mnesarchum. Eu est timeam vocibus, an nostro aliquam adipiscing quo. Zril equidem et quo, ad albucius scripserit sit. Vis constituto deseruisse an, interesset reprehendunt et mel, gloriatur concludaturque pro no. At ludus mediocritatem qui, no vituperata assueverit accommodare his.
+                            </p>
+                            <button class="btn btn-small btn-success" type="button">Read more</button>
+                        </div>
+                    </div>
+                </article>
+                <!-- end article 3 -->
+                    {% include pagination.html %}
+            </div>
+            <div class="span4">
+                {% include aside.html %}
+            </div>
+        </div>
+    </div>
+</section>
