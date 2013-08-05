@@ -1,94 +1,93 @@
 <section id="maincontent">
 <div class="container">
 <div class="row">
-    <div class="span3 features">
-        <i class="icon-circled icon-32 icon-suitcase left active"></i>
-        <h4>Responsive bootstrap</h4>
-        <div class="dotted_line">
+    <div class="span4">
+        <div class="post-slider">
+            <!-- start flexslider -->
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work1.jpg"
+                                                       alt=""/></a>
+                    </li>
+                    <li>
+                        <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work2.jpg"
+                                                       alt=""/></a>
+                    </li>
+                    <li>
+                        <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work3.jpg"
+                                                       alt=""/></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- end flexslider -->
         </div>
-        <p class="left">
-            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
-        </p>
-        <a href="#">Learn more</a>
     </div>
-    <div class="span3 features">
-        <i class="icon-circled icon-32 icon-plane left"></i>
-        <h4>Lot of features</h4>
-        <div class="dotted_line">
-        </div>
-        <p class="left">
-            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
-        </p>
-        <a href="#">Learn more</a>
+    <div class="span4 features">
+
+        <aside>
+            <i class="icon-circled icon-32 icon-suitcase left active"></i>
+            <h4>热门文章推荐</h4>
+
+            <div class="widget">
+                <ul class="cat">
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">Ancillae senserit scribentur ea vel</a></li>
+                    <li><a href="#">Persius nostrum eleifend ad has</a></li>
+                    <li><a href="#">Facilis mediocrem urbanitas ad sed</a></li>
+                    <li><a href="#">Eripuit veritus docendi cum ut</a></li>
+                </ul>
+            </div>
+            <a href="#">Learn more</a>
+        </aside>
     </div>
-    <div class="span3 features">
-        <i class="icon-circled icon-32 icon-leaf left"></i>
-        <h4>Multipurpose template</h4>
-        <div class="dotted_line">
-        </div>
-        <p class="left">
-            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
-        </p>
-        <a href="#">Learn more</a>
-    </div>
-    <div class="span3 features">
-        <i class="icon-circled icon-32 icon-wrench left"></i>
-        <h4>With latest technology</h4>
-        <div class="dotted_line">
-        </div>
-        <p class="left">
-            Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
-        </p>
-        <a href="#">Learn more</a>
+    <div class="span4 features">
+        <aside>
+            <i class="icon-circled icon-32 icon-suitcase left active"></i>
+            <h4>Responsive bootstrap</h4>
+
+            <div class="widget">
+                <ul class="cat">
+                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                    <li><a href="#">Ancillae senserit scribentur ea vel</a></li>
+                    <li><a href="#">Persius nostrum eleifend ad has</a></li>
+                    <li><a href="#">Facilis mediocrem urbanitas ad sed</a></li>
+                    <li><a href="#">Eripuit veritus docendi cum ut</a></li>
+                </ul>
+            </div>
+            <a href="#">Learn more</a>
+        </aside>
     </div>
 </div>
 
+
 <div class="row">
-<ul class="portfolio-area da-thumbs">
-<div class="span12">
-    <h3>最新博文推荐</h3>
-</div>
-    {% for post in site.posts limit:8 %}
-    <li class="portfolio-item2" data-id="id-0" data-type="photo">
-        <div class="span3">
-            <div class="thumbnail">
-                <div class="image-wrapp">
-                    {% if post.show_img %}
-                    <img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" />
-                    {% else %}
-                    <img src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}" />
-                    {% endif %}
-                    <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h4>{{ post.title }}</h4>
-                        <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
+    <ul class="portfolio-area da-thumbs">
+        <div class="span12">
+            <h3>研发推荐{{ site.categories.code | size }}</h3>
+            <div class="solidline"></div>
+        </div>
+        {% for post in site.categories.code limit:8 %}
+        <li class="portfolio-item2" data-id="id-0" data-type="photo">
+            <div class="span3">
+                <div class="thumbnail">
+                    <div class="image-wrapp">
+                        {% if post.show_img %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
+                        {% else %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}" /></a>
+                        {% endif %}
+                        <article class="da-animate da-slideFromRight" style="display: block;">
+                            <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
+                            <a href="{{ site.baseurl }}{{post.url}}"><i
+                                    class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto"
+                                 href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
                             <i class="icon-rounded icon-48 icon-zoom-in"></i>
                         </a></span>
-                    </article>
+                        </article>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </li>
-    {% endfor %}
-    <!--
-{% for post in site.posts limit:8 %}
-    <li class="portfolio-item2" data-id="id-0" data-type="photo">
-    <div class="span3">
-        <div class="thumbnail">
-            <div class="image-wrapp">
-                <img src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}" title="{{post.title}}"/>
-                <article class="da-animate da-slideFromRight" style="display: block;">
-                    <h4>
-                        {{ post.title }}
-                    </h4>
-                    <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span>
-                            <a class="zoom" data-pretty="prettyPhoto"
-                               href="{{site.baseulr}}/assets/img/dummies/blog2.jpg">
-                                <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                            </a>
-                        </span>
-                </article>
                 <div class="entry-meta">
                     <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
 					<span class="date">{{ post.date | date:"%m-%d" }} <br/>
@@ -96,88 +95,118 @@
                 </div>
                 <div class="entry-body">
                     <a href="single-post.html">
-                        <h5 class="title">{{post.title}}</h5>
+                        <h5 class="title">{{post.title | strip_html | truncatewords: 5}}</h5>
                     </a>
+
                     <p>
-                        {% if post.description %}
-                        {{ post.description }}
-                        {% else %}
-                        {{ post.content | strip_html | truncatewords: 2 }}
+                        {% if post.tags %}
+                        {% for tag in post.tags limit:4 %}
+                        <a href="{{ site.baseurl }}/tags/#{{tag}}" class="text" title="{{ tag }}"
+                           rel="category tag">{{ tag }}</a>&nbsp;
+                        {% endfor %}
                         {% endif %}
                     </p>
                 </div>
             </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 
+<div class="row">
+    <ul class="portfolio-area da-thumbs">
+        <div class="span12">
+            <h3>熊猫吃货{{ site.categories.life | size }}</h3>
+
+            <div class="solidline"></div>
         </div>
-    </div>
-</li>
-{% endfor %}
-    -->
-    <li class="portfolio-item2" data-id="id-0" data-type="photo">
-        <div class="span3">
-            <div class="thumbnail">
-                <div class="image-wrapp">
-                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
-                    <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h4>Portfolio name</h4>
-                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
+        {% for post in site.categories.chihuo limit:8 %}
+        <li class="portfolio-item2" data-id="id-0" data-type="photo">
+            <div class="span3">
+                <div class="thumbnail">
+                    <div class="image-wrapp">
+                        <img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/>
+                        <article class="da-animate da-slideFromRight" style="display: block;">
+                            <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
+                            <a href="{{ site.baseurl }}{{post.url}}"><i
+                                    class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto"
+                                 href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
                             <i class="icon-rounded icon-48 icon-zoom-in"></i>
                         </a></span>
-                    </article>
+                        </article>
+                    </div>
+                </div>
+                <div class="entry-meta">
+                    <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
+					<span class="date">{{ post.date | date:"%m-%d" }} <br/>
+					{{ post.date | date:"%Y" }}</span>
+                </div>
+                <div class="entry-body">
+                    <a href="single-post.html">
+                        <h5 class="title">{{post.title | strip_html | truncatewords: 5}}</h5>
+                    </a>
+
+                    <p>
+                        {% if post.tags %}
+                        {% for tag in post.tags limit:4 %}
+                        <a href="{{ site.baseurl }}/tags/#{{tag}}" class="text" title="{{ tag }}"
+                           rel="category tag">{{ tag }}</a>&nbsp;
+                        {% endfor %}
+                        {% endif %}
+                    </p>
                 </div>
             </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="row">
+    <ul class="portfolio-area da-thumbs">
+        <div class="span12">
+            <h3>微生活{{ site.categories.chihuo | size }}</h3>
+            <div class="solidline"></div>
         </div>
-    </li>
-    <li class="portfolio-item2" data-id="id-0" data-type="graphic">
-        <div class="span3">
-            <div class="thumbnail">
-                <div class="image-wrapp">
-                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
-                    <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h4>Portfolio name</h4>
-                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
+        {% for post in site.categories.life limit:8 %}
+        <li class="portfolio-item2" data-id="id-0" data-type="photo">
+            <div class="span3">
+                <div class="thumbnail">
+                    <div class="image-wrapp">
+                        <img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/>
+                        <article class="da-animate da-slideFromRight" style="display: block;">
+                            <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
+                            <a href="{{ site.baseurl }}{{post.url}}"><i
+                                    class="icon-rounded icon-48 icon-link"></i></a>
+						<span><a class="zoom" data-pretty="prettyPhoto"
+                                 href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
                             <i class="icon-rounded icon-48 icon-zoom-in"></i>
                         </a></span>
-                    </article>
+                        </article>
+                    </div>
+                </div>
+                <div class="entry-meta">
+                    <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
+					<span class="date">{{ post.date | date:"%m-%d" }} <br/>
+					{{ post.date | date:"%Y" }}</span>
+                </div>
+                <div class="entry-body">
+                    <a href="single-post.html">
+                        <h5 class="title">{{post.title | strip_html | truncatewords: 5}}</h5>
+                    </a>
+
+                    <p>
+                        {% if post.tags %}
+                        {% for tag in post.tags limit:4 %}
+                        <a href="{{ site.baseurl }}/tags/#{{tag}}" class="text" title="{{ tag }}"
+                           rel="category tag">{{ tag }}</a>&nbsp;
+                        {% endfor %}
+                        {% endif %}
+                    </p>
                 </div>
             </div>
-        </div>
-    </li>
-    <li class="portfolio-item2" data-id="id-0" data-type="graphic">
-        <div class="span3">
-            <div class="thumbnail">
-                <div class="image-wrapp">
-                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
-                    <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h4>Portfolio name</h4>
-                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li class="portfolio-item2" data-id="id-0" data-type="photo">
-        <div class="span3">
-            <div class="thumbnail">
-                <div class="image-wrapp">
-                    <img src="http://demi-panda.oss.aliyuncs.com/media/pub/life/photo/kitty-sanjiangke-2.jpg" alt="Portfolio name" title="" />
-                    <article class="da-animate da-slideFromRight" style="display: block;">
-                        <h4>Portfolio name</h4>
-                        <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 </div>
 </section>

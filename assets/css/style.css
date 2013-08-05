@@ -436,6 +436,39 @@ ul.filter li.active a{
 	color:#737373;
 }
 
+.portfolio-area .entry-meta {
+    float: left;
+    font-style: italic;
+    letter-spacing: -0.5px;
+    line-height: 1.3;
+    text-align: center;
+    width: 48px;
+}
+
+.portfolio-area .entry-meta a {
+    display: block;
+    font-style: normal;
+}
+
+
+.portfolio-area .post-format { margin: 0; }
+
+.portfolio-area .date {
+    display: block;
+    margin: 8px 0 0;
+}
+
+.portfolio-area .entry-body .title {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.portfolio-area  .entry-body {
+    margin: 15px 0 0 68px;
+}
+
+
 /* Portolio Hover */
 
 .da-thumbs li ,
@@ -542,6 +575,10 @@ ul.project-detail li label{
   box-sizing: border-box;
 }
 
+.solidline {
+    border-top:1px solid #e9e9e9;
+    margin:0 0 10px;
+}
 
 
 /* accordion */
