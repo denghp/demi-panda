@@ -8,11 +8,21 @@
     <div class="widget">
         <h4>Categories</h4>
         <ul class="cat">
-            <li><a href="#">Web design (114)</a></li>
-            <li><a href="#">Internet news (15)</a></li>
-            <li><a href="#">Tutorial and tips (20)</a></li>
-            <li><a href="#">Design trends (15)</a></li>
-            <li><a href="#">Online business (10)</a></li>
+        {% for cat in site.categories %}
+        {% if cat[1].size >= 5 %}
+        {% if cat[0] == 'code' %} 
+        <li><a href="#">研发实践({{cat[1].size}})</a></li>
+        {% elsif cat[0] == 'java' %}
+        <li><a href="#">Java实践({{cat[1].size}})</a></li>
+        {% elsif cat[0] == 'solr' %}
+        <li><a href="#">搜索引擎-Lucene/Solr ({{cat[1].size}})</a></li>
+        {% elsif cat[0] == 'linux' %}
+        <li><a href="#">Uinx/Linux ({{cat[1].size}})</a></li>
+        {% elsif cat[0] == 'life' %}
+        <li><a href="#">微生活({{cat[1].size}})</a></li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
         </ul>
     </div>
     <div class="widget">
@@ -47,11 +57,12 @@
     <div class="widget">
         <h4>Tags</h4>
         <ul class="tags">
-            <li><a href="#" class="btn btn-color">Tutorial</a></li>
-            <li><a href="#" class="btn btn-color">Tricks</a></li>
-            <li><a href="#" class="btn btn-color">Design</a></li>
-            <li><a href="#" class="btn btn-color">Trends</a></li>
-            <li><a href="#" class="btn btn-color">Online</a></li>
+        {% for tag in site.tags %}
+        {% if tag[1].size >= 3 %}
+        <li><a href="{{site.baseurl}}/tags/#" class="btn btn-color">{{tag[0]}}</a></li>
+        {% endif %}
+        {% endfor %}
+
         </ul>
     </div>
 </aside>

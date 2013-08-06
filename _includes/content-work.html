@@ -75,14 +75,18 @@
                         {% if post.show_img %}
                         <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
                         {% else %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}" /></a>
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}" /></a>
                         {% endif %}
                         <article class="da-animate da-slideFromRight" style="display: block;">
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
                             <a href="{{ site.baseurl }}{{post.url}}"><i
                                     class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto"
-                                 href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
+                                <span>
+                                  {% if post.show_img %}
+                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
+                                 {% else %}
+                                 <a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
+                                 {% endif %}
                             <i class="icon-rounded icon-48 icon-zoom-in"></i>
                         </a></span>
                         </article>
@@ -125,15 +129,23 @@
             <div class="span3">
                 <div class="thumbnail">
                     <div class="image-wrapp">
-                        <img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/>
+                        {% if post.show_img %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
+                        {% else %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}" /></a>
+                        {% endif %}
                         <article class="da-animate da-slideFromRight" style="display: block;">
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
-                            <a href="{{ site.baseurl }}{{post.url}}"><i
-                                    class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto"
-                                 href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
+                              <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+                                <span>
+                                  {% if post.show_img %}
+                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
+                                 {% else %}
+                                 <a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
+                                 {% endif %}
                             <i class="icon-rounded icon-48 icon-zoom-in"></i>
                         </a></span>
+
                         </article>
                     </div>
                 </div>
@@ -172,16 +184,25 @@
             <div class="span3">
                 <div class="thumbnail">
                     <div class="image-wrapp">
-                        <img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/>
+                        {% if post.show_img %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
+                        {% else %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}" /></a>
+                        {% endif %}
                         <article class="da-animate da-slideFromRight" style="display: block;">
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
-                            <a href="{{ site.baseurl }}{{post.url}}"><i
-                                    class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto"
-                                 href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
+                              <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+                                <span>
+                                  {% if post.show_img %}
+                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
+                                 {% else %}
+                                 <a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
+                                 {% endif %}
                             <i class="icon-rounded icon-48 icon-zoom-in"></i>
                         </a></span>
+
                         </article>
+
                     </div>
                 </div>
                 <div class="entry-meta">
