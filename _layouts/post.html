@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% include emergency_news.html %}
+<section id="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <ul class="breadcrumb notop">
+                    <li><a href="#">Home</a><span class="divider">/</span></li>
+                    <li class="active">Single post</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <!-- start article full post -->
+                <article class="blog-post">
+                    <div class="post-heading">
+                        <h3><a href="#">{{page.title}}</a></h3>
+                    </div>
+                    <div class="clearfix">
+                    </div>
+                    {% if page.show_img %}
+                    <img src="{{site.static_url}}{{page.show_img}}" alt="{{page.title}}" />
+                    {% endif %}
+
+                    <ul class="post-meta">
+                        <li class="first"><i class="icon-calendar"></i><span>{{ page.date | date:"%Y-%m-%d" }}</span></li>
+                        <li><i class="icon-list-alt"></i>
+                            <span><a href="{{site.baseurl}}{{ page.url }}/#comments" title="<< {{ page.title }}>>上的评论"><span class="ds-thread-count" data-thread-key="{{ page.UUID }}" data-replace="1"> Comments</span></a></span>
+                        </li>
+                        <li class="last"><i class="icon-tags"></i>
+                            <span>
+                            {% for tag in page.tags %}
+                            <a href="#">{{tag}}</a>,
+                            {% endfor %}
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="clearfix">
+                    </div>
+                    <p>
+                        {{ content }}
+                    </p>
+                </article>
+                <!-- end article full post -->
+                <h4>Comments</h4>
+                <!-- Duoshuo Comment Begin -->
+                <div class="ds-thread" data-thread-id="{{page.UUID}}" data-url="{{site.url}}{{page.url}}" data-thread-key="{{page.UUID}}" data-title="{{page.title}}"
+                     data-order="desc" data-form-positon="top"></div>
+                <!-- Duoshuo Comment End -->
+            </div>
+            <div class="span4">
+                {% include aside.html %}
+            </div>
+        </div>
+    </div>
+</section>

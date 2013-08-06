@@ -12,7 +12,6 @@
                     </li>
                     <li>
                         <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work2.jpg"
-                                                       alt=""/></a>
                     </li>
                     <li>
                         <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work3.jpg"
@@ -65,6 +64,7 @@
     <ul class="portfolio-area da-thumbs">
         <div class="span12">
             <h3>研发推荐{{ site.categories.code | size }}</h3>
+
             <div class="solidline"></div>
         </div>
         {% for post in site.categories.code limit:8 %}
@@ -73,22 +73,28 @@
                 <div class="thumbnail">
                     <div class="image-wrapp">
                         {% if post.show_img %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}"
+                                                                      alt="{{ post.title }}"/></a>
                         {% else %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}" /></a>
+                        <a href="{{site.baseurl}}{{ post.url }}"><img
+                                src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/></a>
                         {% endif %}
                         <article class="da-animate da-slideFromRight" style="display: block;">
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
-                            <a href="{{ site.baseurl }}{{post.url}}"><i
-                                    class="icon-rounded icon-48 icon-link"></i></a>
+                            <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
                                 <span>
                                   {% if post.show_img %}
                                   <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
-                                 {% else %}
-                                 <a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
-                                 {% endif %}
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                      {% else %}
+                                  <a class="zoom" data-pretty="prettyPhoto"
+                                     href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                  {% endif %}
+
+                                </span>
                         </article>
                     </div>
                 </div>
@@ -130,22 +136,27 @@
                 <div class="thumbnail">
                     <div class="image-wrapp">
                         {% if post.show_img %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}"
+                                                                      alt="{{ post.title }}"/></a>
                         {% else %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}" /></a>
+                        <a href="{{site.baseurl}}{{ post.url }}"><img
+                                src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/></a>
                         {% endif %}
                         <article class="da-animate da-slideFromRight" style="display: block;">
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
-                              <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+                            <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
                                 <span>
                                   {% if post.show_img %}
                                   <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
-                                 {% else %}
-                                 <a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
-                                 {% endif %}
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                      {% else %}
+                                  <a class="zoom" data-pretty="prettyPhoto"
+                                     href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                  {% endif %}
+                            </span>
                         </article>
                     </div>
                 </div>
@@ -177,6 +188,7 @@
     <ul class="portfolio-area da-thumbs">
         <div class="span12">
             <h3>微生活{{ site.categories.chihuo | size }}</h3>
+
             <div class="solidline"></div>
         </div>
         {% for post in site.categories.life limit:8 %}
@@ -185,21 +197,27 @@
                 <div class="thumbnail">
                     <div class="image-wrapp">
                         {% if post.show_img %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{ post.title }}" /></a>
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}"
+                                                                      alt="{{ post.title }}"/></a>
                         {% else %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}" /></a>
+                        <a href="{{site.baseurl}}{{ post.url }}"><img
+                                src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/></a>
                         {% endif %}
                         <article class="da-animate da-slideFromRight" style="display: block;">
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
-                              <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+                            <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
                                 <span>
                                   {% if post.show_img %}
                                   <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
-                                 {% else %}
-                                 <a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
-                                 {% endif %}
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                      {% else %}
+                                  <a class="zoom" data-pretty="prettyPhoto"
+                                     href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                  {% endif %}
+                                </span>
 
                         </article>
 
