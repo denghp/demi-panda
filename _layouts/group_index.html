@@ -1,0 +1,96 @@
+---
+layout: default
+---
+{% include emergency_news.html %}
+
+
+<section id="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <ul class="breadcrumb notop">
+                    <li><a href="#">Home</a><span class="divider">/</span></li>
+                    {% if page.grouptype == 'tag' %}
+                    <li class="active">'{{page.tag}}'</li>
+                    {% elsif page.grouptype == 'category' %}
+                    <li><a href="#">Category</a> <span class="divider">/</span></li>
+                    <li class="active">'{{page.category}}'</li>
+                    {% endif %}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <!-- start article 1 -->
+                {% for post in paginator.posts %}
+                <article class="blog-post">
+                    <div class="post-heading">
+                        <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3>
+                    </div>
+                    <div class="row">
+                        <div class="span3">
+                            <div class="post-image">
+                                {% if post.show_img %}
+                                <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}"
+                                                                              alt="{{ post.title }}"/></a>
+                                {% else %}
+                                <a href="{{site.baseurl}}{{ post.url }}"><img
+                                        src="{{site.baseulr}}/assets/img/dummies/blog2.jpg" alt="{{ post.title }}"/></a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="span5">
+                            <ul class="post-meta">
+                                <li class="first"><i
+                                        class="icon-calendar"></i><span>{{ post.date | date:"%Y-%m-%d" }}</span></li>
+                                <li><i class="icon-list-alt"></i><span><a href="#">3 comments</a></span></li>
+                                <li class="last"><i class="icon-tags"></i><span>
+                                    {% if post.tags %}
+                                        {% for tag in post.tags limit:5 %}
+                                            <a href="{{ site.baseurl }}/tags/#{{tag}}" class="text" title="{{ tag }}"
+                                               rel="category tag">{{ tag }}</a>&nbsp;
+                                        {% endfor %}
+                                    {% endif %}
+                                </span>
+                                </li>
+                            </ul>
+                            <div class="clearfix">
+                            </div>
+                            <p>
+                                {% if post.description %}
+                                {{ post.description }}
+                                {% else %}
+                                {{ post.content | strip_html | truncatewords: 3 }}
+                                {% endif %}
+                            </p>
+                            <button class="btn btn-small btn-success" type="button">Read more</button>
+                        </div>
+                    </div>
+                </article>
+                {% endfor %}
+
+                {% include pagination.html %}
+            </div>
+            <div class="span4">
+                {% include aside.html %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if page.grouptype == 'tag' %}
+{% capture paging_root %}/tag/{{page.tag}}/{% endcapture %}
+{% elsif page.grouptype == 'category' %}
+{% capture paging_root %}/category/{{page.category}}/{% endcapture %}
+{% else %}
+{% capture paging_root %}/{% endcapture %}
+{% endif %}
+
+

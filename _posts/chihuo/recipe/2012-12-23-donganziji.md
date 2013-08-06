@@ -10,6 +10,7 @@ categories:
 - recipe
 - 湘菜
 show_img: "/media/pub/chihuo/recipe/donganziji.jpg"
+array: ["/media/pub/chihuo/recipe/donganziji.jpg","/media/pub/chihuo/recipe/m_201107240021181.jpg"]
 UUID: 20121231527
 ---
 
