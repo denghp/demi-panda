@@ -10,6 +10,7 @@ comment: true
 published: true
 categories:
 - life
+data_type: 人文
 UUID: 20121104
 ---
 

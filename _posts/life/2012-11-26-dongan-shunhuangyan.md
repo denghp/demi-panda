@@ -8,6 +8,7 @@ tags:
 categories:
 - life
 - travel
+data_type: 风景
 UUID: 201211262030
 ---
 

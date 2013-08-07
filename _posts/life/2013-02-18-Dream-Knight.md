@@ -8,6 +8,7 @@ tags:
 categories:
 - life
 - topic
+data_type: 人文
 UUID: 20130218003712
 date: 2013-02-18 00:10:00
 show_img: "/media/pub/life/pub/Dream-Knight.jpg"

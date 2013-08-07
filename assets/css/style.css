@@ -647,6 +647,7 @@ aside .widget h4{
 aside .widget ul.cat {
 	list-style:none;
 	margin-left:0;
+    font-size:14px;
 }
 aside .widget ul.cat li {
 	padding-left:24px;
@@ -657,6 +658,8 @@ aside .widget ul.cat li {
 aside .widget ul.cat li a {
 	color:#444;
 }
+
+
 aside .widget ul.cat li a:hover {
 	text-decoration:none;
 }
@@ -664,42 +667,66 @@ aside .widget ul.cat li a:hover {
 /* recent posts */
 
 aside .widget ul.recent-posts li {
-	overflow:hidden;
-	display:inline-block;
-	
+    overflow:hidden;
+    display:inline-block;
+
 }
 
 aside .widget ul.recent-posts li a{
-	color:#444;
-	text-align:left;
-	
+    color:#444;
+    text-align:left;
+
 }
 
 aside .widget ul.recent-posts li a:hover {
-	text-decoration:none;
+    text-decoration:none;
 }
 
 aside .widget ul.recent-posts li span.date {
-	float:left;
-	font-size:11px;
-	margin-top:10px;
-	
+    float:left;
+    font-size:11px;
+    margin-top:10px;
+
 }
 
 aside .widget ul.recent-posts li span.comment {
-	float:left;
-	margin-left:20px;
-	font-size:11px;
-	margin-top:10px;
+    float:left;
+    margin-left:20px;
+    font-size:11px;
+    margin-top:10px;
+}
+
+aside .widget ul.ds-thread-count li span.comment {
+    float:left;
+    margin-left:20px;
+    font-size:11px;
+    margin-top:10px;
 }
 
 /* tags */
 aside .widget ul.tags li {
-	display:inline;	
+	display:inline;
+
 }
 
 aside .widget ul.tags li a {
 	margin-bottom:10px;
+    color:#444;
+}
+
+aside .widget ul.tags li a:hover {
+    text-decoration:none;
+    color: #94c045;
+}
+
+aside .widget ul.ds-top-threads li a {
+    margin-bottom:10px;
+    color:#444;
+}
+
+aside .widget ul.ds-top-threads li a:hover {
+    text-decoration:none;
+    color: #94c045;
 }
 
 #comment span{

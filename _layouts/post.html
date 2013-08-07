@@ -2,18 +2,7 @@
 layout: default
 ---
 {% include emergency_news.html %}
-<section id="breadcrumb">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <ul class="breadcrumb notop">
-                    <li><a href="#">Home</a><span class="divider">/</span></li>
-                    <li class="active">Single post</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+
 <section id="maincontent">
     <div class="container">
         <div class="row">
@@ -37,7 +26,7 @@ layout: default
                         <li class="last"><i class="icon-tags"></i>
                             <span>
                             {% for tag in page.tags %}
-                            <a href="#">{{tag}}</a>,
+                            <a href="{{site.baseurl}}/tag/{{tag}}">{{tag}}</a>,
                             {% endfor %}
                             </span>
                         </li>
@@ -49,7 +38,6 @@ layout: default
                     </p>
                 </article>
                 <!-- end article full post -->
-                <h4>Comments</h4>
                 <!-- Duoshuo Comment Begin -->
                 <div class="ds-thread" data-thread-id="{{page.UUID}}" data-url="{{site.url}}{{page.url}}" data-thread-key="{{page.UUID}}" data-title="{{page.title}}"
                      data-order="desc" data-form-positon="top"></div>
