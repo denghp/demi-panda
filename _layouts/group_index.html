@@ -85,12 +85,5 @@ layout: default
     </div>
 </section>
 
-{% if page.grouptype == 'tag' %}
-{% capture paging_root %}/tag/{{page.tag}}/{% endcapture %}
-{% elsif page.grouptype == 'category' %}
-{% capture paging_root %}/category/{{page.category}}/{% endcapture %}
-{% else %}
-{% capture paging_root %}/{% endcapture %}
-{% endif %}
 
 

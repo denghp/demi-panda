@@ -9,6 +9,7 @@ tags:
 categories:
 - code
 - solr
+- search
 - topic
 UUID: 20130330001027
 date: 2013-03-30 00:10:22

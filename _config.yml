@@ -23,9 +23,8 @@ auto: true
 debug: true
 
 paginate: 10
-pygments: true
-tag_page_dir: tag
-page_index: 5
+tag_page_dir: tags
+
 
 links:
     - url: "http://lusongsong.com/"

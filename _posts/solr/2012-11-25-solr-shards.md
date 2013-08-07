@@ -8,7 +8,8 @@ tags:
 - 分布式
 categories:
 - code
-- solr 
+- solr
+- search
 UUID: 201211252330
 date: 2012-11-25
 ---

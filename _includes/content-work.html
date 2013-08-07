@@ -6,17 +6,11 @@
             <!-- start flexslider -->
             <div class="flexslider">
                 <ul class="slides">
+                    {% for post in site.categories.topic limit:5 %}
                     <li>
-                        <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work1.jpg"
-                                                       alt=""/></a>
+                        <a href="{{ site.url}}{{post.url}}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{post.title}}"/></a>
                     </li>
-                    <li>
-                        <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work2.jpg"
-                    </li>
-                    <li>
-                        <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work3.jpg"
-                                                       alt=""/></a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- end flexslider -->
@@ -30,11 +24,9 @@
 
             <div class="widget">
                 <ul class="cat">
-                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#">Ancillae senserit scribentur ea vel</a></li>
-                    <li><a href="#">Persius nostrum eleifend ad has</a></li>
-                    <li><a href="#">Facilis mediocrem urbanitas ad sed</a></li>
-                    <li><a href="#">Eripuit veritus docendi cum ut</a></li>
+                    {% for post in site.categories.topic limit:5 %}
+                    <li><a href="{{ site.url}}{{post.url}}">{{post.title}}</a></li>
+                    {% endfor %}
                 </ul>
             </div>
             <a href="#">Learn more</a>

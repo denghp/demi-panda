@@ -1879,3 +1879,25 @@ section#subintro{
 	}
 
 }
+
+/* scroll to top */
+.scrollup{
+    position:fixed;
+    width:32px;
+    height:32px;
+    bottom:0px;
+    right:20px;
+}
+
+a.scrollup {
+    outline:0;
+    text-decoration:none;
+}
+
+a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
+    opacity:1;
+    text-decoration:none;
+}
+a.scrollup i:hover {
+    text-decoration:none;
+}

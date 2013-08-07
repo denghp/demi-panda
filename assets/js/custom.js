@@ -10,8 +10,23 @@ jQuery(document).ready(function($) {
         $(this).find('.accordion-toggle').not($(e.target)).removeClass('active');
 		$(this).find('.accordion-toggle i').not($(e.target)).removeClass('icon-minus');
 		$(this).find('.accordion-toggle i').not($(e.target)).addClass('icon-plus');
-    });	
-	
+    });
+
+
+    //scroll to top
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+
+        } else {
+            $('.scrollup').fadeOut();
+
+        }
+    });
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 1000);
+        return false;
+    });
 	
 	// Create the dropdown base
 	$("<select />").appendTo("nav");

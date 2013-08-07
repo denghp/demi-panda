@@ -8,7 +8,8 @@ tags:
 - 经纬度
 categories:
 - code
-- solr 
+- solr
+- search
 UUID: 201211302340
 date: 2012-11-30
 ---

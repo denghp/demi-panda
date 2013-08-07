@@ -9,7 +9,8 @@ tags:
 - 缓存
 categories:
 - code
-- solr 
+- solr
+- search
 UUID: 201211291130
 date: 2012-11-29
 ---

@@ -8,7 +8,8 @@ tags:
 - Dismax
 categories:
 - code
-- solr 
+- solr
+- search
 UUID: 201211291350
 date: 2012-11-29
 ---

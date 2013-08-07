@@ -7,7 +7,8 @@ tags:
 - 搜索引擎
 categories:
 - code
-- solr 
+- solr
+- search
 UUID: 201011252230
 date: 2010-11-25
 ---
