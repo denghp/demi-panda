@@ -10,6 +10,7 @@ categories:
 - chihuo
 - recipe
 - life
+- archives
 data_type: meishi
 images: ["/assets/images/chihuo/recipe/jiyudoufutang.jpg"]
 UUID: 201212312327

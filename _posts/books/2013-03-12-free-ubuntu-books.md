@@ -7,7 +7,8 @@ tags:
 - linux
 categories:
 - code
-- linux 
+- linux
+- archives
 UUID: 20130312001000
 date: 2013-03-12 00:10:00
 images: ["/assets/images/books/w_ubun04c.gif"]

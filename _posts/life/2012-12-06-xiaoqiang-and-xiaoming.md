@@ -6,6 +6,7 @@ tags:
 - 情感 
 categories:
 - life
+- archives
 data_type: renwen
 images: ["/assets/images/life/pub/feixiang.jpg"]
 UUID: 201212062200

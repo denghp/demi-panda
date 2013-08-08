@@ -7,6 +7,7 @@ tags:
 - centos
 categories:
 - code
+- archives
 UUID: 20130521002000
 date: 2013-05-21 00:20:00
 images: ['/assets/images/linux/django-logo.jpg']

@@ -4,6 +4,7 @@ title: 基于Jenkins搭建集群部署环境
 categories:
 - Jenkins
 - code
+- archives
 tags:
 - Jenkins
 - Hudson

@@ -7,6 +7,7 @@ tags:
 - 屏蔽
 categories:
 - www
+- archives
 UUID: 2013012210237
 date: 2013-01-22 10:30:00
 images: ["/assets/images/github/github.jpg"]

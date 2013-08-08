@@ -8,7 +8,8 @@ tags:
 - 研发实践
 categories:
 - code
-- linux 
+- linux
+- archives
 UUID: 201301160023
 ---
 

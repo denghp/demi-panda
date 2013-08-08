@@ -8,6 +8,7 @@ tags:
 categories:
 - life
 - topic
+- archives
 data_type: web
 UUID: 20130201003700
 date: 2013-02-01 00:37:00

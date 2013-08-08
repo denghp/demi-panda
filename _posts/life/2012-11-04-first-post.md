@@ -6,10 +6,9 @@ tags:
 - 2012年
 - 雪
 - 世界末日
-comment: true
-published: true
 categories:
 - life
+- archives
 data_type: renwen
 UUID: 20121104
 ---

@@ -7,6 +7,7 @@ tags:
 categories:
 - life
 - travel
+- archives
 data_type: fengjing
 images: ["/assets/images/life/dongan/shunhuangyan.jpg"]
 UUID: 201211262030

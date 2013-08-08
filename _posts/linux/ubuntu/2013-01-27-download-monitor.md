@@ -11,6 +11,7 @@ categories:
 - code
 - linux
 - topic
+- archives
 UUID: 20130127013000
 date: 2013-01-27 01:30:00
 images: ["/assets/images/linux/download-monitor.jpg"]

@@ -8,6 +8,7 @@ tags:
 - 2013
 categories:
 - life
+- archives
 data_type: dongwu
 images: ["/assets/images/life/photo/kitty-sanjiangke-2.jpg"]
 UUID: 201301101527

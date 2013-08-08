@@ -9,6 +9,7 @@ tags:
 categories:
 - life
 - movie
+- archives
 UUID: 201212312137
 images: ["/assets/images/life/movie/54fbb2fb43166d22fbf6a478462309f79152d25d.jpg"]
 ---

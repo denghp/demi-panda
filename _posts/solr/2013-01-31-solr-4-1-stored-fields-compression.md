@@ -10,6 +10,7 @@ categories:
 - code
 - solr
 - search
+- archives
 UUID: 20130131002700
 date: 2013-01-31 00:27:00
 ---

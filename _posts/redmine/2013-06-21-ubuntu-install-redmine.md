@@ -7,6 +7,7 @@ tags:
 categories:
 - code
 - project
+- archives
 UUID: 20130621002000
 date: 2013-06-21 00:20:00
 images: ["/assets/images/web/redmine_dashboard.jpg"]

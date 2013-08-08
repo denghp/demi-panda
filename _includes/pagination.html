@@ -25,6 +25,7 @@
         <li><a href="{{paging_root}}index.html">1</a> </li>
         {% endif %}
 
+
         {% for count in (2..paginator.total_pages) %}
         {% if count == paginator.page %}
         <li class="active"><a href="{{paging_root}}page{{ count }}">{{ count }}</a></li>

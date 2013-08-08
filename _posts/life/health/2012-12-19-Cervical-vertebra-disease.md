@@ -11,6 +11,7 @@ tags:
 categories:
 - life
 - health
+- archives
 data_type: health
 images: ["/assets/images/life/healthy/healthy-2.jpg","/assets/images/life/healthy/healthy-1.jpg","/assets/images/life/healthy/healthy-3.jpg","/assets/images/life/healthy/healthy-4.jpg","/assets/images/life/healthy/healthy-5.jpg","/assets/images/life/healthy/healthy-6.jpg"]
 UUID: 201212191327

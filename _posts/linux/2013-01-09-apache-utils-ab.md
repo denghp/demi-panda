@@ -8,7 +8,7 @@ tags:
 - 压力测试
 categories:
 - code
-- 测试工具
+- archives
 UUID: 201301092343
 ---
 

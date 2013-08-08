@@ -8,8 +8,8 @@ tags:
 categories:
 - chihuo
 - recipe
-- 湘菜
 - life
+- archives
 data_type: meishi
 images: ["/assets/images/chihuo/recipe/xiangyukourou.jpg"]
 UUID: 20121240027

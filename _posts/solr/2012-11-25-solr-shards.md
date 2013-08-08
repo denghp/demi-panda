@@ -10,6 +10,7 @@ categories:
 - code
 - solr
 - search
+- archives
 UUID: 201211252330
 date: 2012-11-25
 ---

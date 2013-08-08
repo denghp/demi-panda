@@ -8,6 +8,7 @@ tags:
 categories:
 - www
 - topic
+- archives
 UUID: 20130124003000
 date: 2013-01-24 00:30:00
 images: ["/assets/images/github/github-logo.jpg"]

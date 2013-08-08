@@ -10,6 +10,7 @@ tags:
 categories:
 - code
 - linux
+- archives
 UUID: 20130724122000
 date: 2013-07-24 12:50:22
 images: ["/assets/images/linux/wine.jpg"]

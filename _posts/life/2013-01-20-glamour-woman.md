@@ -8,6 +8,7 @@ tags:
 - 生活
 categories:
 - life
+- archives
 data_type: renwen
 UUID: 201301201537
 images: ["/assets/images/life/pub/woman.jpg"]

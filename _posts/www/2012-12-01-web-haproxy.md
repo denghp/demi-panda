@@ -9,6 +9,7 @@ tags:
 categories:
 - www
 - code
+- archives
 UUID: 201212010027
 date: 2012-12-01
 ---

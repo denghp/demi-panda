@@ -10,6 +10,7 @@ tags:
 categories:
 - code
 - linux
+- archives
 UUID: 20130127113500
 date: 2013-01-27 11:35:00
 images: ["/assets/images/linux/postman.jpg"]

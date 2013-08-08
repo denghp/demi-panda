@@ -10,6 +10,7 @@ categories:
 - recipe
 - 湘菜
 - life
+- archives
 data_type: meishi
 images: ["/assets/images/chihuo/recipe/donganziji.jpg","/assets/images/chihuo/recipe/m_201107240021181.jpg"]
 UUID: 20121231527

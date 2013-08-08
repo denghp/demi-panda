@@ -11,6 +11,7 @@ categories:
 - solr
 - search
 - topic
+- archives
 UUID: 20130330001027
 date: 2013-03-30 00:10:22
 images: ["/assets/images/solr/2shard4serverFull.jpg"]
@@ -99,9 +100,11 @@ $ vi /tmp/zookeeper/myid
 
 ###SolrCloud安装配置
 包含2个shard的集群，每个shard中有replica节点
+
 <a href="{{site.static_url}}/assets/images/solr/2shard4server.jpg" alt="solr" rel="prettyPhoto[{{page.UUID}}]" target="_bank">
 <img src="{{site.static_url}}/assets/images/solr/2shard4server.jpg" alt="solr" width="330px" />
 </a>
+
 <ol>
 <li>安装Tomcat</li>
 <li>安装zookeeper集群,启动，我这里就使用上面的zookeeper集群</li>
@@ -116,6 +119,7 @@ $ copy -r solr $TOMCAT_HOME4/conf
 </li>
 <li>
 更改第一台tomcat的启动脚本catalina.sh，添加solr_home及配置信息到JAVA_OPTS,添加到开头就行,在catalina.sh指定solr_home,也可以在solr.war包中的web.xml中配置
+
 <a href="{{site.static_url}}/assets/images/solr/config-1.jpg" alt="solr" rel="prettyPhoto[{{page.UUID}}]" target="_bank">
 <img src="{{site.static_url}}/assets/images/solr/config-1.jpg" alt="solr" width="540px" />
 </a>
@@ -123,9 +127,11 @@ $ copy -r solr $TOMCAT_HOME4/conf
 </li>
 <li>
 更改第二台及其他tomcat的启动脚本catalina.sh
+
 <a href="{{site.static_url}}/assets/images/solr/config-2.jpg" alt="solr" rel="prettyPhoto[{{page.UUID}}]" target="_bank">
-<img src="{{site.static_url}}/assets/images/solr/config-2.jpg" alt="solr" width="540px" />
+<img src="{{site.static_url}}/assets/images/solr/config-2.jpg" alt="solr" />
 </a>
+
 </li>
 <li>
 配置完所有的solr服务，则从第一台开始启动<code>$TOMCAT_HOME1/bin/catalina.sh run</code>

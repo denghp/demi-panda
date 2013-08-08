@@ -9,6 +9,7 @@ tags:
 - 浏览器
 categories:
 - www
+- archives
 UUID: 201301142227
 ---
 

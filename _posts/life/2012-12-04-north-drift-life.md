@@ -8,6 +8,7 @@ published: true
 categories:
 - life
 - topic
+- archives
 data_type: renwen
 images: ["/assets/images/life/pub/life-style.jpg"]
 UUID: 201212040030

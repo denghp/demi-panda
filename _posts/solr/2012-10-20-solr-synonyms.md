@@ -10,6 +10,7 @@ categories:
 - code
 - solr
 - search
+- archives
 UUID: 20121020202012
 date: 2012-11-20
 ---

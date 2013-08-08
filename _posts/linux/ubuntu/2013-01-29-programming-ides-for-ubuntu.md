@@ -10,6 +10,7 @@ categories:
 - code
 - linux
 - topic
+- archives
 UUID: 20130129003000
 date: 2013-01-29 00:30:00
 images: ["/assets/images/java/eclipse.jpg"]

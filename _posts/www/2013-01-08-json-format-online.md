@@ -3,11 +3,12 @@ layout: post
 title: JSON在线格式化工具
 tags: 
 - 互联网
-- JSON
+- json
 - jackson
 - fastjson
 categories:
 - www
+- archives
 UUID: 201301081027
 description: 　JSON(JavaScript Object Notation) 是一种轻量级的数据交换格式, 给大家推荐一款Be JSON的工具,为了方便快捷的验证json的有效性，格式化,压缩发送等功能.
 ---

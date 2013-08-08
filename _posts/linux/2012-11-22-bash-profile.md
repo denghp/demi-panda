@@ -9,6 +9,7 @@ tags:
 - bash_profile
 categories:
 - linux
+- archives
 UUID: 201211220950
 date: 2012-11-22
 ---

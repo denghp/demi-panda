@@ -12,6 +12,7 @@ categories:
 - recipe
 - topic
 - life
+- archives
 data_type: meishi
 images: ["/assets/images/chihuo/recipe/xiaochaorou.jpg"]
 UUID: 20130325001000

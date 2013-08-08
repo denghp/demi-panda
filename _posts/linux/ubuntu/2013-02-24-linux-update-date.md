@@ -8,6 +8,7 @@ tags:
 categories:
 - code
 - linux
+- archives
 UUID: 20130224002700
 date: 2013-02-24 00:27:00
 images: ["/assets/images/linux/october-calendar-date-md.png"]

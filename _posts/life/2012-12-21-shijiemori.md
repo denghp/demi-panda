@@ -6,6 +6,7 @@ tags:
 - 玛雅人
 categories:
 - life
+- archives
 data_type: renwen
 images: ["/assets/images/life/pub/houtian.jpg"]
 UUID: 201212212240

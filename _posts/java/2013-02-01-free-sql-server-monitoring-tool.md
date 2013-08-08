@@ -9,6 +9,7 @@ tags:
 categories:
 - code
 - topic
+- archives
 UUID: 20130201142700
 date: 2013-02-01 14:27:00
 images: ["/assets/images/sql/download-box.png"]

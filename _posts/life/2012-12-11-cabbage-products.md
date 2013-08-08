@@ -8,6 +8,7 @@ tags:
 - 淘宝
 categories:
 - life
+- archives
 data_type: web
 images: ["/assets/images/life/pub/8610a412jw1dzd090l3vjj.jpg"]
 UUID: 201212110930

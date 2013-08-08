@@ -7,6 +7,7 @@ tags:
 - 屏蔽
 categories:
 - www
+- archives
 UUID: 20130123223000
 date: 2013-01-23 22:30:00
 images: ["/assets/images/google/google-search.jpg"]

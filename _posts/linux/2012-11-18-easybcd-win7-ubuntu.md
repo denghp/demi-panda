@@ -10,6 +10,7 @@ tags:
 categories:
 - OS
 - linux
+- archives
 UUID: 201211182243
 date: 2012-11-18
 ---

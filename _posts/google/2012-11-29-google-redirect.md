@@ -7,6 +7,7 @@ tags:
 categories:
 - Search
 - Google
+- archives
 UUID: 201211292330
 date: 2012-11-29
 ---

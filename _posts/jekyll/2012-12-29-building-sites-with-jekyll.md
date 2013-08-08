@@ -7,6 +7,7 @@ tags:
 - 免费博客
 categories:
 - code
+- archives
 UUID: 201212291027
 images: ["/assets/images/web/Jekyll.jpg"]
 ---

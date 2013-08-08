@@ -6,6 +6,7 @@ tags:
 - 婚礼
 categories:
 - life
+- archives
 data_type: renwen
 UUID: 201301031751
 images: ["/assets/images/life/pub/hunsha.jpg"]

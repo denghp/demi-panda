@@ -8,6 +8,7 @@ tags:
 categories:
 - life
 - topic
+- archives
 data_type: renwen
 UUID: 20130218003712
 date: 2013-02-18 00:10:00

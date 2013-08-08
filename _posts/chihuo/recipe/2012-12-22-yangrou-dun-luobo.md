@@ -12,6 +12,7 @@ categories:
 - chihuo
 - recipe
 - life
+- archives
 data_type: meishi
 images: ["/assets/images/chihuo/recipe/20121221.jpg"]
 UUID: 201212212327

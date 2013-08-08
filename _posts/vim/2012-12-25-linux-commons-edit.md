@@ -9,6 +9,7 @@ tags:
 categories:
 - code
 - linux
+- archives
 images: ["/assets/images/linux/vim_logo.png"]
 UUID: 201212250010
 ---

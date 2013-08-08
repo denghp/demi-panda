@@ -5,10 +5,9 @@ tags:
 - Bootstrap
 - 工具包
 - Web
-comment: true
-published: true
 categories:
 - www
+- archives
 UUID: 201212232332
 ---
 

@@ -7,6 +7,7 @@ tags:
 - 冰
 categories:
 - life
+- archives
 data_type: dongwu
 images: ["/assets/images/life/photo/8317161721_5cc47c1c03_z.jpg"]
 UUID: 201301022227

@@ -11,6 +11,7 @@ tags:
 categories:
 - life
 - topic
+- archives
 data_type: web
 UUID: 201301011537
 images: ["/assets/images/life/pub/12306.jpg"]

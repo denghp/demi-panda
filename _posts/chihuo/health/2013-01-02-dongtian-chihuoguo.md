@@ -9,6 +9,7 @@ categories:
 - chihuo
 - health
 - life
+- archives
 data_type: meishi
 images: ["/assets/images/chihuo/health/huoguo.jpg"]
 UUID: 201301022327

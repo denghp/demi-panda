@@ -5,10 +5,11 @@ short_title: Google2012年搜索热词榜的背后！
 author: 小刀马
 tags: 
 - 互联网
-- Google
+- google
 - 搜索热词
 categories:
 - www
+- archives
 UUID: 201212171027
 ---
 

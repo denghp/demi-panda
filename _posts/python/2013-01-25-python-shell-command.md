@@ -2,12 +2,13 @@
 layout: post
 title: python 调用Linux的Shell命令
 tags: 
-- Python
+- python
 - linux
 - shell
 - 研发实践
 categories:
 - code
+- archives
 UUID: 201301251427
 date: 2013-01-25 08:27:22
 images: ["/assets/images/python/486px-Python_logo.png"]

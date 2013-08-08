@@ -11,6 +11,7 @@ categories:
 - 湘菜
 - life
 - topic
+- archives
 data_type: meishi
 images: ["/assets/images/chihuo/recipe/xueya.jpg"]
 UUID: 20121241027

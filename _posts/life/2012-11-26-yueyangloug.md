@@ -7,7 +7,7 @@ tags:
 - 岳阳楼
 categories:
 - life
-- travel
+- archives
 UUID: 201211261830
 ---
 

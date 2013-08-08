@@ -8,6 +8,7 @@ tags:
 categories:
 - life
 - topic
+- archives
 UUID: 20130130003000
 images: ["/assets/images/life/healthy/sex-happy-300x168.jpg"]
 ---
