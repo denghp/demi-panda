@@ -8,7 +8,11 @@
                 <ul class="slides">
                     {% for post in site.categories.topic limit:5 %}
                     <li>
-                        <a href="{{ site.url}}{{post.url}}"><img src="{{site.static_url}}{{post.show_img}}" alt="{{post.title}}"/></a>
+                        <a href="{{ site.url}}{{post.url}}">
+                        {% if post.images.size > 0 %}
+                            <img src="{{site.static_url}}{{post.images[0]}}" alt="{{post.title}}"/>
+                        {% endif %}
+                        </a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -70,8 +74,8 @@
             <div class="span3">
                 <div class="thumbnail">
                     <div class="image-wrapp">
-                        {% if post.show_img %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}"
+                        {% if post.images.size > 0 %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.images[0]}}"
                                                                       alt="{{ post.title }}"/></a>
                         {% else %}
                         <a href="{{site.baseurl}}{{ post.url }}"><img
@@ -81,8 +85,8 @@
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
                             <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
                                 <span>
-                                  {% if post.show_img %}
-                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
+                                  {% if post.images.size > 0 %}
+                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.images[0]}}">
                                       <i class="icon-rounded icon-48 icon-zoom-in"></i>
                                   </a>
                                       {% else %}
@@ -133,8 +137,8 @@
             <div class="span3">
                 <div class="thumbnail">
                     <div class="image-wrapp">
-                        {% if post.show_img %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}"
+                        {% if post.images.size > 0 %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.images[0]}}"
                                                                       alt="{{ post.title }}"/></a>
                         {% else %}
                         <a href="{{site.baseurl}}{{ post.url }}"><img
@@ -144,8 +148,8 @@
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
                             <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
                                 <span>
-                                  {% if post.show_img %}
-                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
+                                  {% if post.images.size > 0 %}
+                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.images[0]}}">
                                       <i class="icon-rounded icon-48 icon-zoom-in"></i>
                                   </a>
                                       {% else %}
@@ -194,8 +198,8 @@
             <div class="span3">
                 <div class="thumbnail">
                     <div class="image-wrapp">
-                        {% if post.show_img %}
-                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.show_img}}"
+                        {% if post.images.size > 0 %}
+                        <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.images[0]}}"
                                                                       alt="{{ post.title }}"/></a>
                         {% else %}
                         <a href="{{site.baseurl}}{{ post.url }}"><img
@@ -205,8 +209,8 @@
                             <h4>{{ post.title | strip_html | truncatewords: 5}}</h4>
                             <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
                                 <span>
-                                  {% if post.show_img %}
-                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.show_img}}">
+                                  {% if post.images.size > 0 %}
+                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.images[0]}}">
                                       <i class="icon-rounded icon-48 icon-zoom-in"></i>
                                   </a>
                                       {% else %}

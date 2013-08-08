@@ -12,6 +12,9 @@ perPageItem: 10
                 <ul class="filter">
                     <li class="all active"><a href="#" class="btn btn-color">All categories</a></li>
                     <li class="web"><a href="#" class="btn btn-color">Web design</a></li>
+                    <li class="renwen"><a href="#" class="btn btn-color">人文</a></li>
+                    <li class="fengjing"><a href="#" class="btn btn-color">风景</a></li>
+                    <li class="meishi"><a href="#" class="btn btn-color">美食</a></li>
                     <li class="brand"><a href="#" class="btn btn-color">Brand identity</a></li>
                     <li class="graphic"><a href="#" class="btn btn-color">Graphic design</a></li>
                 </ul>
@@ -19,134 +22,75 @@ perPageItem: 10
         </div>
         <div class="row">
             <ul class="portfolio-area da-thumbs">
-                <li class="portfolio-item2" data-id="id-0" data-type="web">
+                {% for post in site.categories.life limit:8 %}
+                {% if post.data_type %}
+                <li class="portfolio-item2" data-id="id-0" data-type="{{post.data_type}}">
                     <div class="span3">
                         <div class="thumbnail">
                             <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work1.jpg" alt="Portfolio name" title="" />
+                                {% if post.images.size > 0 %}
+                                <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.images[0]}}"
+                                                                              alt="{{ post.title }}"/></a>
+                                {% else %}
+                                <a href="{{site.baseurl}}{{ post.url }}"><img
+                                        src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/></a>
+                                {% endif %}
+                                <!--
+                                <a href="{{site.baseurl}}/2013/01/20/glamour-woman"><img src="{{site.baseulr}}/assets/img/dummies/work8.jpg" alt="Portfolio name" title="" /></a>
+                                -->
                                 <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
+                                    <h4>
+                                        {% if post.short_title %}
+                                        {{post.short_title}}
+                                        {% else %}
+                                        {{ post.title | strip_html | truncatewords: 3}}
+                                        {% endif %}
+                                        </h4>
+                                    <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+                                <span>
+                                  {% if post.images.size > 0 %}
+                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.images[0]}}">
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                      {% else %}
+                                  <a class="zoom" data-pretty="prettyPhoto"
+                                     href="{{site.baseulr}}/assets/img/dummies/work3.jpg">
+                                      <i class="icon-rounded icon-48 icon-zoom-in"></i>
+                                  </a>
+                                  {% endif %}
+                            </span>
                                 </article>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li class="portfolio-item2" data-id="id-0" data-type="web">
-                    <div class="span3">
-                        <div class="thumbnail">
-                            <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work2.jpg" alt="Portfolio name" title="" />
-                                <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                                </article>
-                            </div>
+                        <div class="entry-meta">
+                            <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
+					<span class="date">{{ post.date | date:"%m-%d" }} <br/>
+					{{ post.date | date:"%Y" }}</span>
+                        </div>
+                        <div class="entry-body">
+                            <a href="single-post.html">
+                                <h5 class="title">
+                                    {% if post.short_title %}
+                                    {{post.short_title}}
+                                    {% else %}
+                                    {{ post.title | strip_html | truncatewords: 3}}
+                                    {% endif %}
+                                </h5>
+                            </a>
+
+                            <p>
+                                {% if post.tags %}
+                                {% for tag in post.tags limit:3 %}
+                                <a href="{{ site.baseurl }}/tags/#{{tag}}" class="text" title="{{ tag }}"
+                                   rel="category tag">{{ tag }}</a>&nbsp;
+                                {% endfor %}
+                                {% endif %}
+                            </p>
                         </div>
                     </div>
                 </li>
-                <li class="portfolio-item2" data-id="id-0" data-type="brand">
-                    <div class="span3">
-                        <div class="thumbnail">
-                            <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="Portfolio name" title="" />
-                                <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="portfolio-item2" data-id="id-0" data-type="photo">
-                    <div class="span3">
-                        <div class="thumbnail">
-                            <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work4.jpg" alt="Portfolio name" title="" />
-                                <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="portfolio-item2" data-id="id-0" data-type="graphic">
-                    <div class="span3">
-                        <div class="thumbnail">
-                            <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work5.jpg" alt="Portfolio name" title="" />
-                                <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="portfolio-item2" data-id="id-0" data-type="graphic">
-                    <div class="span3">
-                        <div class="thumbnail">
-                            <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work6.jpg" alt="Portfolio name" title="" />
-                                <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="portfolio-item2" data-id="id-0" data-type="photo">
-                    <div class="span3">
-                        <div class="thumbnail">
-                            <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work7.jpg" alt="Portfolio name" title="" />
-                                <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="portfolio-item2" data-id="id-0" data-type="ilustrator">
-                    <div class="span3">
-                        <div class="thumbnail">
-                            <div class="image-wrapp">
-                                <img src="{{site.baseulr}}/assets/img/dummies/work8.jpg" alt="Portfolio name" title="" />
-                                <article class="da-animate da-slideFromRight" style="display: block;">
-                                    <h4>Portfolio name</h4>
-                                    <a href="portfolio-detail.html"><i class="icon-rounded icon-48 icon-link"></i></a>
-						<span><a class="zoom" data-pretty="prettyPhoto" href="{{site.baseulr}}/assets/img/dummies/big1.jpg">
-                            <i class="icon-rounded icon-48 icon-zoom-in"></i>
-                        </a></span>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </li>
+                {% endif %}
+                {% endfor %}
             </ul>
         </div>
         <div class="row">

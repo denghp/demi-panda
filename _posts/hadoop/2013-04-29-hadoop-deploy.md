@@ -12,7 +12,7 @@ categories:
 - topic
 UUID: 20130429001236
 date: 2013-04-29 00:12:36
-show_img: "/media/pub/linux/hadoop-logo.jpg"
+images: ["/assets/images/linux/hadoop-logo.jpg"]
 ---
 
  　　一个分布式系统基础架构，由Apache基金会开发。用户可以在不了解分布式底层细节的情况下，开发分布式程序。充分利用集群的威力高速运算和存储。Hadoop实现了一个分布式文件系统（Hadoop Distributed File System），简称HDFS。HDFS有着高容错性的特点，并且设计用来部署在低廉的（low-cost）硬件上。而且它提供高传输率（high throughput）来访问应用程序的数据，适合那些有着超大数据集（large data set）的应用程序。HDFS放宽了（relax）POSIX的要求（requirements）这样可以流的形式访问（streaming access）文件系统中的数据。
@@ -107,13 +107,13 @@ Hadoop可以在单节点上以所谓的伪分布式模式运行，此时每一�
 <pre id="bash">
 $ hadoop namenode -format
 </pre>
-<a href="{{site.static_url}}/media/pub/linux/hadoop-format.jpg" alt="hadoop namenode -format" rel="prettyPhoto[{{page.UUID}}]">
-  <img src="{{site.static_url}}/media/pub/linux/hadoop-format.jpg" width="560px"  alt="hadoop namenode format" />
+<a href="{{site.static_url}}/assets/images/linux/hadoop-format.jpg" alt="hadoop namenode -format" rel="prettyPhoto[{{page.UUID}}]">
+  <img src="{{site.static_url}}/assets/images/linux/hadoop-format.jpg" width="560px"  alt="hadoop namenode format" />
 </a>
 
 namenode -format 这是第一需要做的初始化之后产生如下文件:
-<a href="{{site.static_url}}/media/pub/linux/format-files.jpg" alt="hadoop namenode -format" rel="prettyPhoto[{{page.UUID}}]">
-  <img src="{{site.static_url}}/media/pub/linux/format-files.jpg" width="330px"  alt="namenode format" />
+<a href="{{site.static_url}}/assets/images/linux/format-files.jpg" alt="hadoop namenode -format" rel="prettyPhoto[{{page.UUID}}]">
+  <img src="{{site.static_url}}/assets/images/linux/format-files.jpg" width="330px"  alt="namenode format" />
 </a>
 
 2、因为我们把hadoop的已经配置到环境变量中了，所以我们可以在任何目录下执行hadoop的start-all.sh，启动hadoop守护进程
@@ -146,13 +146,13 @@ JobTracker--   http://localhost:50030
 </pre>
 
 <strong>NameNode</strong>
-<a href="{{site.static_url}}/media/pub/linux/namenode-web.jpg" alt="hadoop namenode web" rel="prettyPhoto[{{page.UUID}}]">
-  <img src="{{site.static_url}}/media/pub/linux/namenode-web.jpg" width="560px"  alt="namenode web" />
+<a href="{{site.static_url}}/assets/images/linux/namenode-web.jpg" alt="hadoop namenode web" rel="prettyPhoto[{{page.UUID}}]">
+  <img src="{{site.static_url}}/assets/images/linux/namenode-web.jpg" width="560px"  alt="namenode web" />
 </a>
 
 <strong>Jobtracker</strong>
-<a href="{{site.static_url}}/media/pub/linux/jobtracker-web.jpg" alt="jobtracker web" rel="prettyPhoto[{{page.UUID}}]">
-  <img src="{{site.static_url}}/media/pub/linux/jobtracker-web.jpg" width="560px"  alt="jobtracker web" />
+<a href="{{site.static_url}}/assets/images/linux/jobtracker-web.jpg" alt="jobtracker web" rel="prettyPhoto[{{page.UUID}}]">
+  <img src="{{site.static_url}}/assets/images/linux/jobtracker-web.jpg" width="560px"  alt="jobtracker web" />
 </a>
 
 ###运行MapReduce Tutorial的例子
@@ -192,8 +192,8 @@ Hello Hadoop Goodbye Hadoop
 <pre id="bash">
 $ hadoop jar lib/wordcount-example-1.0-20130428.jar com.company.mr.WordCount input out
 </pre>
-<a href="{{site.static_url}}/media/pub/linux/hadoop-mapreduce.jpg" alt="hadoop mapreduce" rel="prettyPhoto[{{page.UUID}}]">
-  <img src="{{site.static_url}}/media/pub/linux/hadoop-mapreduce.jpg" width="560px"  alt="hadoop mapreduce" />
+<a href="{{site.static_url}}/assets/images/linux/hadoop-mapreduce.jpg" alt="hadoop mapreduce" rel="prettyPhoto[{{page.UUID}}]">
+  <img src="{{site.static_url}}/assets/images/linux/hadoop-mapreduce.jpg" width="560px"  alt="hadoop mapreduce" />
 </a>
 
 5、运行结果
