@@ -61,7 +61,9 @@
 <!-- Footer
  ================================================== -->
 {% include footer.html %}
+<!--
 <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+-->
 <script type="text/javascript">
     var duoshuoQuery = {short_name:"demi-panda"};
     (function() {
@@ -73,35 +75,5 @@
                 || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
 </script>
-<!--
-<script type="text/javascript">
-
-    //首先要引入jquery的js包
-    jQuery(document).ready(function(){
-        $.ajax({
-            type : "get", //jquey是不支持post方式跨域的
-            async:false,
-            url : "http://api.duoshuo.com/sites/listTopThreads.json?short_name=demi-panda", //跨域请求的URL
-            dataType : "jsonp",
-            //传递给请求处理程序，用以获得jsonp回调函数名的参数名(默认为:callback)
-            jsonp: 'jsonp',
-            //自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
-            jsonpCallback:"success_jsonpCallback",
-            //成功获取跨域服务器上的json数据后,会动态执行这个callback函数
-            success : function(json){
-                console.log(eval("(" + json + ")"))
-                console.log(JSON.parse(eval("(" + json + ")")))
-                console.log("OK")
-            },
-            error : function(error,a,b) {
-                console.log(error)
-                console.log(a)
-                console.log(b)
-            }
-        });
-    });
-
-</script>
--->
 </body>
 </html>

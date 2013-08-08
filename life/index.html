@@ -22,15 +22,17 @@ perPageItem: 10
         </div>
         <div class="row">
             <ul class="portfolio-area da-thumbs">
-                {% for post in site.categories.life limit:8 %}
+                {% for post in site.categories.life %}
                 {% if post.data_type %}
                 <li class="portfolio-item2" data-id="id-0" data-type="{{post.data_type}}">
                     <div class="span3">
                         <div class="thumbnail">
                             <div class="image-wrapp">
+
                                 {% if post.images.size > 0 %}
-                                <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.static_url}}{{post.images[0]}}"
-                                                                              alt="{{ post.title }}"/></a>
+                                <a href="{{site.baseurl}}{{ post.url }}"><img
+                                        src="{{site.static_url}}{{post.images[0]}}"
+                                        alt="{{ post.title }}"/></a>
                                 {% else %}
                                 <a href="{{site.baseurl}}{{ post.url }}"><img
                                         src="{{site.baseulr}}/assets/img/dummies/work3.jpg" alt="{{ post.title }}"/></a>
@@ -45,11 +47,13 @@ perPageItem: 10
                                         {% else %}
                                         {{ post.title | strip_html | truncatewords: 3}}
                                         {% endif %}
-                                        </h4>
-                                    <a href="{{ site.baseurl }}{{post.url}}"><i class="icon-rounded icon-48 icon-link"></i></a>
+                                    </h4>
+                                    <a href="{{ site.baseurl }}{{post.url}}"><i
+                                            class="icon-rounded icon-48 icon-link"></i></a>
                                 <span>
                                   {% if post.images.size > 0 %}
-                                  <a class="zoom" data-pretty="prettyPhoto" href="{{site.static_url}}{{post.images[0]}}">
+                                  <a class="zoom" data-pretty="prettyPhoto"
+                                     href="{{site.static_url}}{{post.images[0]}}">
                                       <i class="icon-rounded icon-48 icon-zoom-in"></i>
                                   </a>
                                       {% else %}
@@ -62,6 +66,7 @@ perPageItem: 10
                                 </article>
                             </div>
                         </div>
+                        <!--
                         <div class="entry-meta">
                             <a href="#"><i class="icon-square icon-48 icon-pencil left"></i></a>
 					<span class="date">{{ post.date | date:"%m-%d" }} <br/>
@@ -87,25 +92,12 @@ perPageItem: 10
                                 {% endif %}
                             </p>
                         </div>
+                        -->
                     </div>
                 </li>
                 {% endif %}
                 {% endfor %}
             </ul>
-        </div>
-        <div class="row">
-            <div class="span12">
-                <div class="pagination">
-                    <ul>
-                        <li><a href="#">Prev</a></li>
-                        <li><a href="#">1</a></li>
-                        <li class="active"><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">Next</a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
     </div>
 </section>
