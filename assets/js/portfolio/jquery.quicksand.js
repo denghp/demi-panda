@@ -17,20 +17,27 @@ Github site: http://github.com/razorjack/quicksand
 */
 
 (function ($) {
-    $.fn.quicksand = function (collection, customOptions) {     
+    $.fn.quicksand = function(collection, customOptions) {
         var options = {
-            duration: 750,
-            easing: 'swing',
-            attribute: 'data-id', // attribute to recognize same items within source and dest
-            adjustHeight: 'auto', // 'dynamic' animates height during shuffling (slow), 'auto' adjusts it before or after the animation, false leaves height constant
-            useScaling: true, // disable it if you're not using scaling effect or want to improve performance
-            enhancement: function(c) {}, // Visual enhacement (eg. font replacement) function for cloned elements
-            selector: '> *',
-            dx: 0,
-            dy: 0
+            duration : 750,
+            easing : 'swing',
+            attribute : 'data-id',        // attribute to recognize same items within source and dest
+            adjustHeight : 'auto',        // 'dynamic' animates height during shuffling (slow), 'auto' adjusts it
+            // before or after the animation, false leaves height constant
+            adjustWidth : 'auto',         // 'dynamic' animates width during shuffling (slow),
+            // 'auto' adjusts it before or after the animation, false leaves width constant
+            useScaling : false,           // enable it if you're using scaling effect
+            enhancement : function(c) {}, // Visual enhacement (eg. font replacement) function for cloned elements
+            selector : '> *',
+            atomic : false,
+            dx : 0,
+            dy : 0,
+            maxWidth : 0,
+            retainExisting : true         // disable if you want the collection of items to be replaced completely by incoming items.
         };
         $.extend(options, customOptions);
-        
+
+
         if ($.browser.msie || (typeof($.fn.scale) == 'undefined')) {
             // Got IE and want scaling effect? Kiss my ass.
             options.useScaling = false;
