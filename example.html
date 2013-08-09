@@ -1,0 +1,58 @@
+---
+layout: default
+title: 关于熊猫
+---
+{% include emergency_news.html %}
+
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+          <div id="bp-get-started-initialization"></div>
+
+        </div>
+    </div>
+</section>
+<script src="{{site.baseurl}}/assets/js/bootstrap-paginator.min.js"></script>
+      <script type="text/javascript">
+        function getStartedInitialization(){
+          var options = {
+		currentPage: 1,
+             totalPages: 10
+          }
+          $('#bp-get-started-initialization').bootstrapPaginator(options);
+        }
+
+    $(function(){
+        getStartedInitialization();
+        
+        
+    })
+ 
+
+ 
+//首先要引入jquery的js包
+jQuery(document).ready(function(){
+	$.ajax({
+		type : "get", //jquey是不支持post方式跨域的
+		async:false,
+    url : "{{site.baseurl}}/news.json", //跨域请求的URL
+		dataType : "json",
+		//传递给请求处理程序，用以获得jsonp回调函数名的参数名(默认为:callback)
+		jsonp: "jsoncallback",
+		//自定义的jsonp回调函数名称，默认为jQuery自动生成的随机函数名
+		jsonpCallback:"success_jsonpCallback",
+		//成功获取跨域服务器上的json数据后,会动态执行这个callback函数
+		success : function(json){ 
+		console.log(json);
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown){
+		console.log(XMLHttpRequest);
+		console.log(textStatus);
+		console.log(errorThrown);
+		}
+	});
+});
+</script>
+
+  </body>
+</html>
