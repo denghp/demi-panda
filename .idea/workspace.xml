@@ -4,15 +4,12 @@
     <list default="true" id="6d7e51ca-86e4-459e-b423-ffe1314de12f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/content-work.html" afterPath="$PROJECT_DIR$/_includes/content-work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life/index.html" afterPath="$PROJECT_DIR$/life/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/maincontent.html" afterPath="$PROJECT_DIR$/_includes/maincontent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demi-panda.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375972687467" ignored="false" />
+    <file path="/Dummy.txt" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376012920656" ignored="false" />
     <file path="/content-work.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375975458336" ignored="false" />
     <file path="/index.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375966891040" ignored="false" />
     <file path="/default.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375969440092" ignored="false" />
@@ -28,7 +25,7 @@
     <file path="/embed.js" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375861357416" ignored="false" />
     <file path="/footer.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375870442597" ignored="false" />
     <file path="/style.css" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375883321620" ignored="false" />
-    <file path="/header.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375889023473" ignored="false" />
+    <file path="/header.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376016577317" ignored="false" />
     <file path="/2012-05-06-taishan.md" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375942745983" ignored="false" />
     <file path="/2012-11-13-life-hope.md" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375950869309" ignored="false" />
     <file path="/2012-11-26-dongan-shunhuangyan.md" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375951075889" ignored="false" />
@@ -575,8 +572,7 @@
     <file path="$PROJECT_DIR$/_site/2013/01/09/apache-utils-ab/index.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375972687902" ignored="false" />
     <file path="/2013-07-29-tools-jar-is-not-in-idea-classpath.md" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375972734582" ignored="false" />
     <file path="/2013-06-29-incompatible-character-encodings-utf-8-and-ascii-8bit.md" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375973343347" ignored="false" />
-    <file path="$PROJECT_DIR$/_site/sitemap.xml" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375976624068" ignored="false" />
-    <file path="$PROJECT_DIR$/_site/rss.xml" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375976624068" ignored="false" />
+    <file path="/about.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376016421645" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -636,68 +632,7 @@
     <favorites_list name="demi-panda" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="2013-07-29-tools-jar-is-not-in-idea-classpath.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/idea/2013-07-29-tools-jar-is-not-in-idea-classpath.md">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="206" selection-end="206" vertical-scroll-proportion="-7.034483">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-work.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/content-work.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="2312" selection-end="2312" vertical-scroll-proportion="-9.153846">
-              <folding>
-                <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#section#0" expanded="false" />
-                <element signature="tag#li#0;tag#ul#0;tag#div#3;tag#div#0;tag#section#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2013-04-16-mongodb-command.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/mongodb/2013-04-16-mongodb-command.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="32" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.46285716">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2013-03-30-solr-cloud-install.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/solr/2013-03-30-solr-cloud-install.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="73" selection-start="4642" selection-end="4642" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2013-06-29-incompatible-character-encodings-utf-8-and-ascii-8bit.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/redmine/2013-06-29-incompatible-character-encodings-utf-8-and-ascii-8bit.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="52" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -715,9 +650,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_posts/www/2013-03-26-nginx-command.md" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/group_index.html" />
         <option value="$PROJECT_DIR$/_includes/pagination.html" />
         <option value="$PROJECT_DIR$/_posts/hadoop/2013-04-29-hadoop-deploy.md" />
@@ -730,15 +662,18 @@
         <option value="$PROJECT_DIR$/_posts/solr/2013-03-30-solr-cloud-install.md" />
         <option value="$PROJECT_DIR$/_includes/content-work.html" />
         <option value="$PROJECT_DIR$/_posts/mongodb/2013-04-16-mongodb-command.md" />
+        <option value="$PROJECT_DIR$/_includes/404.html" />
         <option value="$PROJECT_DIR$/404.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="64" />
     <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="width" value="1857" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -796,28 +731,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demi-panda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demi-panda" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -835,6 +756,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -848,6 +774,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -878,19 +817,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -904,13 +830,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -932,6 +851,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -970,13 +896,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -991,11 +916,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24780177" sideWeight="0.67205167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24764542" sideWeight="0.67205167" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1062,120 +988,107 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="1780" selection-end="1780" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/group_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="16" selection-start="4127" selection-end="4127" vertical-scroll-proportion="-10.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/pagination.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="1376" selection-end="1376" vertical-scroll-proportion="-23.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/hadoop/2013-04-29-hadoop-deploy.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="52" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/solr/2012-11-25-solr-replication.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="50" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="50" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/solr/2013-01-23-solr-release-4.1.0.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="62" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="62" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/solr/2013-02-13-solr-release-4.2.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="62" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="62" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/solr/2013-03-13-install-solr.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="61" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="61" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/linux/ubuntu/2013-03-20-liferea-rss-reader-for-ubuntu-users.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="268" selection-end="275" vertical-scroll-proportion="0.6380697">
-          <folding />
-        </state>
+        <state line="17" column="38" selection-start="268" selection-end="275" vertical-scroll-proportion="0.6380697" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/idea/2013-07-29-tools-jar-is-not-in-idea-classpath.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="206" selection-end="206" vertical-scroll-proportion="-7.034483">
+        <state line="14" column="39" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/redmine/2013-06-29-incompatible-character-encodings-utf-8-and-ascii-8bit.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="52" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+        <state line="16" column="52" selection-start="306" selection-end="306" vertical-scroll-proportion="0.018867925">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/solr/2013-03-30-solr-cloud-install.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="73" selection-start="4642" selection-end="4642" vertical-scroll-proportion="0.0">
+        <state line="136" column="73" selection-start="4731" selection-end="4731" vertical-scroll-proportion="0.5213964">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/content-work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2312" selection-end="2312" vertical-scroll-proportion="-9.153846">
-          <folding>
-            <element signature="tag#li#0;tag#ul#0;tag#div#1;tag#div#0;tag#section#0" expanded="false" />
-            <element signature="tag#li#0;tag#ul#0;tag#div#3;tag#div#0;tag#section#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/mongodb/2013-04-16-mongodb-command.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+        <state line="13" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/life/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="32" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.46285716">
+        <state line="0" column="0" selection-start="0" selection-end="33" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/content-work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="17" selection-start="6867" selection-end="6867" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/group_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="153" selection-end="4175" vertical-scroll-proportion="-5.8846154">
+          <folding>
+            <element signature="tag#article#0;tag#div#0;tag#div#0;tag#div#0;tag#section#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="107" selection-start="2331" selection-end="2331" vertical-scroll-proportion="-22.884615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.11657143">
           <folding />
         </state>
       </provider>
