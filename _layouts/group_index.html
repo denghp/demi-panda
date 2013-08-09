@@ -23,7 +23,7 @@ layout: default
                                     <ul class="slides">
                                         {% for img in post.images %}
                                         <li>
-                                            <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{img}}" alt="{{post.title}}" /></a>
+                                            <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.static_url}}{{img}}" alt="{{post.title}}" /></a>
                                         </li>
                                         {% endfor %}
                                     </ul>

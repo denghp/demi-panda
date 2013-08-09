@@ -2,9 +2,402 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d7e51ca-86e4-459e-b423-ffe1314de12f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/color/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome-ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/overwrite.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/prettyPhoto-3.1.5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/sequence.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ico/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/books/w_free01_160.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/books/w_linu01c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/books/w_make72c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/books/w_ubun04c.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/btn_buynow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/huanggua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/huluobo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/huoguo-peicai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/huoguo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/ningmen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/putao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/shiliu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/health/youzi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/00030894.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/0230440080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/20121221.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/donganziji.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/jiyudoufutang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/luobo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/m_201107240021181.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/xiangyukourou.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/xiaochaorou.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/xueya.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/yangtuirou-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/chihuo/recipe/yangtuirou.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/demi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/git-reset.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/git.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/github-home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/github-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/github.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/settings-sidebar-ssh-keys.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/ssh-add-key.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/ssh-add-ssh-key.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/ssh-key-paste.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/github/userbar-account-settings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/149673861.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/149673862.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/chrome_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/chrome_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/direct-links.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/google-redirects.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/google-search.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/seo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/google/wopupiao.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/450px-HTTP_persistent_connection.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/Finagle-Diagram.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/bluefish-editor-snapshot-550x442.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/eclipse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/firebug_firepath.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/geany-ide-snapshot-550x383.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/jconsole-index.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/jconsole.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/jdk-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/jdk-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/json-http-header-manager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/json-http-request-csv.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/json-http-search-request.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/json-http-test-plan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/kdevelop-IDE-550x331.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/java/netbeans-ide-550x270.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkin-console.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-admin-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-admin-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-admin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-configure-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-configure.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-email.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-job-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-job-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-job-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-job.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/jenkins-manager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/json-search-request-csv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/json-search-requst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/jenkins/tomcat-manager.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/2012.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/dongan/IMG_1659.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/dongan/hougong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/dongan/qiangong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/dongan/shunhuangyan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/dongan/wugongta-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/dongan/wugongta.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/dongan/zhonggong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/healthy-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/healthy/sex-happy-300x168.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/movie/54fbb2fb43166d22fbf6a478462309f79152d25d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/movie/taijiong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/8317160695_429346840e_z.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/8317161721_5cc47c1c03_z.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/8318215614_85bb18acdf_z.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/8318215794_05a3d9340d_z.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/8318216694_39176b3564_z.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/kitty-sanjiangke-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/kitty-sanjiangke.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/photo/mengmao-9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/12306.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/2012-11-04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/2012-12-16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/2012-12-20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/4271097954.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/8610a412jw1dzd090l3vjj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/8610a412jw1dzowwjkrjaj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/8610a412jw1dzowxv27jtj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/8610a412jw1dzox3eseu9j.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/Dream-Knight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/air-2013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/demi-panda-seo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/feixiang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/founder-quotient-circle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/hope.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/houtian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/hunsha.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/life-style.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/man.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/my-driving-licenese.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/si-ha.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/steve-jobs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/pub/woman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/shanghai/sun-dog-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/shanghai/sun-dog-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/shanghai/sun-dog-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/shanghai/sun-dog-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/shanghai/sun-dog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/ditu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/duzun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/guanrifeng.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/nantianmen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/richu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/taian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/taishan-min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/taishan/taishan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/yueyanglou/yueyanglou-min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/yueyanglou/yueyanglou-tf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/life/yueyanglou/yueyanglou.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/0935035064-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/0_1274779296pVNL.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/0_1324910111Sc6p.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/0_1324910173iGc3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/Ganglia_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/LoadRunner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/Rational-Robot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/apache-ab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/bash-profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/create-user-sudo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/django-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/download-monitor-setting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/download-monitor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/emacs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/fdisk-info.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/format-files.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/fstab-info-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/fstab-info.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/ganglia-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/hadoop-format.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/hadoop-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/hadoop-mapreduce.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/idea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/jobtracker-web.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/liferea-rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/liferea-settings.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/mapreduce-runtime.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/mytop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/namenode-web.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/october-calendar-date-md.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/postman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/redmine-exception.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/tcp-ip-status.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vim-javacomplete-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vim-javacomplete.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vim.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vim_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vpn-step-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vpn-step-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vpn-step-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vpn-step-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/vpn-step-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/whereis-images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/linux/wine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/os/EasyBCD-GRUB.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/os/easybcd-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/os/ubuntu-install-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/os/ubuntu-install-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/os/ubuntu-install-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/os/ubuntu-install.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/python/486px-Python_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/si-toc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/2shard4server.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/2shard4serverFull.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/config-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/config-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/solr-admin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/solr-cache-loader.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/solr-cache.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/solr-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/solr-replication.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/solr/solrcloud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sql/download-box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sql/screen1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sql/screen2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sql/screen3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sql/screen4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/sql/screen5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/svn/svn-branch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/16115128_hu5O.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/479px-Redmine_logo.svg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/CKEditor-plugin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/Color-Tools.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/Greasemonkey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/Jekyll.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/RESTClient-560x420.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/RESTClient-Java-491x600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/Simple-REST-Client-560x491.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/Zuckerberg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/add-userscript.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/advance-rest-client.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/facebook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/firebug.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/firefox-add-ons.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/google-map.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/haproxy-300x76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/jekyll-blog-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/jekyll-blog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/jiangnan-style.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/josn-enitor-online.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/jquery-lazy-load-plugin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/json-compress.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/json-format.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/json-validate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/kippt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/mongodb-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/nodejs-380x300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/postman-rest-client.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/redmine-CKEditor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/redmine_dashboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/send-json.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/twitter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/web/userscript.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/bg_direction_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/demi-logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/demi-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/140x140.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/big1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/blog1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/blog2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dummies/work8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/feed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/head-shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/sec-next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons/sec-prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/image_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/list/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/list/check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/list/circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/list/diamond.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/list/white-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/slides/flexslider/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/slides/flexslider/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/slides/flexslider/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/slides/sequence/img-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/slides/sequence/img-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/slides/sequence/img-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/small-avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/google-code-prettify/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/google-code-prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/hover/jquery-hover-effect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/hover/setting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.elastislide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.prettyPhoto-3.1.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.tweet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/portfolio/jquery.quicksand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/portfolio/setting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/sequence/sequence.jquery-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/sequence/setting.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/health/2012-12-22-dongji-yangyan.md" afterPath="$PROJECT_DIR$/_posts/chihuo/health/2012-12-22-dongji-yangyan.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-donganziji.md" afterPath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-donganziji.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-jiyu-doufu.md" afterPath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-jiyu-doufu.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-xiangyukourou.md" afterPath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-xiangyukourou.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-yongzhou-xueya.md" afterPath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-yongzhou-xueya.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/health/2013-01-02-dongtian-chihuoguo.md" afterPath="$PROJECT_DIR$/_posts/chihuo/health/2013-01-02-dongtian-chihuoguo.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/content-work.html" afterPath="$PROJECT_DIR$/_includes/content-work.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/group_index.html" afterPath="$PROJECT_DIR$/_layouts/group_index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="$PROJECT_DIR$/archives/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/life/index.html" afterPath="$PROJECT_DIR$/life/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/maincontent.html" afterPath="$PROJECT_DIR$/_includes/maincontent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="$PROJECT_DIR$/_includes/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demi-panda.iws" />
@@ -13,8 +406,8 @@
     <file path="/content-work.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375975458336" ignored="false" />
     <file path="/index.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375966891040" ignored="false" />
     <file path="/default.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375969440092" ignored="false" />
-    <file path="/post.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375886079352" ignored="false" />
-    <file path="/a.dummy" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375977124186" ignored="false" />
+    <file path="/post.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376030681349" ignored="false" />
+    <file path="/a.dummy" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376026354306" ignored="false" />
     <file path="/2012-12-23-donganziji.md" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375943485232" ignored="false" />
     <file path="/group_index.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375968595822" ignored="false" />
     <file path="/pagination.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1375970048212" ignored="false" />
@@ -632,7 +1025,26 @@
     <favorites_list name="demi-panda" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="post.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="154" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.8779174">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/pagination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="76" selection-start="539" selection-end="543" vertical-scroll-proportion="-9.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -650,22 +1062,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_layouts/group_index.html" />
-        <option value="$PROJECT_DIR$/_includes/pagination.html" />
-        <option value="$PROJECT_DIR$/_posts/hadoop/2013-04-29-hadoop-deploy.md" />
-        <option value="$PROJECT_DIR$/_posts/solr/2012-11-25-solr-replication.md" />
-        <option value="$PROJECT_DIR$/_posts/solr/2013-01-23-solr-release-4.1.0.md" />
-        <option value="$PROJECT_DIR$/_posts/solr/2013-02-13-solr-release-4.2.md" />
-        <option value="$PROJECT_DIR$/_posts/solr/2013-03-13-install-solr.md" />
-        <option value="$PROJECT_DIR$/_posts/idea/2013-07-29-tools-jar-is-not-in-idea-classpath.md" />
-        <option value="$PROJECT_DIR$/_posts/redmine/2013-06-29-incompatible-character-encodings-utf-8-and-ascii-8bit.md" />
-        <option value="$PROJECT_DIR$/_posts/solr/2013-03-30-solr-cloud-install.md" />
-        <option value="$PROJECT_DIR$/_includes/content-work.html" />
-        <option value="$PROJECT_DIR$/_posts/mongodb/2013-04-16-mongodb-command.md" />
-        <option value="$PROJECT_DIR$/_includes/404.html" />
-        <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_includes/maincontent.html" />
+        <option value="$PROJECT_DIR$/_includes/nav.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_layouts/group_index.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/archives/index.html" />
+        <option value="$PROJECT_DIR$/life/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/chihuo/health/2013-01-02-dongtian-chihuoguo.md" />
+        <option value="$PROJECT_DIR$/_posts/chihuo/health/2012-12-22-dongji-yangyan.md" />
+        <option value="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-donganziji.md" />
+        <option value="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-jiyu-doufu.md" />
+        <option value="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-xiangyukourou.md" />
+        <option value="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-yongzhou-xueya.md" />
+        <option value="$PROJECT_DIR$/_layouts/post.html" />
       </list>
     </option>
   </component>
@@ -731,7 +1143,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demi-panda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demi-panda" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -897,11 +1323,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32760474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -916,12 +1343,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24764542" sideWeight="0.67205167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24764542" sideWeight="0.6723953" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -988,107 +1414,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/hadoop/2013-04-29-hadoop-deploy.md">
+    <entry file="file://$PROJECT_DIR$/_posts/jekyll/2012-11-09-github-pages-domain-3.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/solr/2012-11-25-solr-replication.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="50" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/solr/2013-01-23-solr-release-4.1.0.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="62" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/solr/2013-02-13-solr-release-4.2.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="62" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/solr/2013-03-13-install-solr.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="61" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/linux/ubuntu/2013-03-20-liferea-rss-reader-for-ubuntu-users.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="268" selection-end="275" vertical-scroll-proportion="0.6380697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/idea/2013-07-29-tools-jar-is-not-in-idea-classpath.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/redmine/2013-06-29-incompatible-character-encodings-utf-8-and-ascii-8bit.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="52" selection-start="306" selection-end="306" vertical-scroll-proportion="0.018867925">
+        <state line="14" column="16" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/solr/2013-03-30-solr-cloud-install.md">
+    <entry file="file://$PROJECT_DIR$/_posts/jekyll/2012-12-29-building-sites-with-jekyll.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="73" selection-start="4731" selection-end="4731" vertical-scroll-proportion="0.5213964">
+        <state line="258" column="154" selection-start="6608" selection-end="6608" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/mongodb/2013-04-16-mongodb-command.md">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+        <state line="25" column="192" selection-start="1181" selection-end="1181" vertical-scroll-proportion="-6.8076925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archives/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="82" selection-start="5318" selection-end="5318" vertical-scroll-proportion="-6.8076925">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/life/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="71" vertical-scroll-proportion="-0.0">
+        <state line="24" column="50" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-1.5637343">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="33" vertical-scroll-proportion="-0.0">
+        <state line="24" column="12" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/content-work.html">
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/health/2013-01-02-dongtian-chihuoguo.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="17" selection-start="6867" selection-end="6867" vertical-scroll-proportion="-15.038462">
+        <state line="37" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/group_index.html">
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/health/2012-12-22-dongji-yangyan.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="153" selection-end="4175" vertical-scroll-proportion="-5.8846154">
-          <folding>
-            <element signature="tag#article#0;tag#div#0;tag#div#0;tag#div#0;tag#section#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="107" selection-start="2331" selection-end="2331" vertical-scroll-proportion="-22.884615">
+        <state line="44" column="70" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-22-yangrou-dun-luobo.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.11657143">
+        <state line="25" column="40" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-donganziji.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="80" selection-start="834" selection-end="834" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-23-jiyu-doufu.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="49" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-xiangyukourou.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="73" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-yongzhou-xueya.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="72" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/chihuo/recipe/2013-03-25-xiaochaorou.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="25" selection-start="339" selection-end="339" vertical-scroll-proportion="-1.7701544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="76" selection-start="539" selection-end="543" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="154" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.8779174">
           <folding />
         </state>
       </provider>

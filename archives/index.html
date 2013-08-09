@@ -26,7 +26,7 @@ perPageItem: 10
                                     <ul class="slides">
                                         {% for img in post.images %}
                                         <li>
-                                            <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{img}}" alt="{{post.title}}" /></a>
+                                            <a href="{{site.baseurl}}{{post.url}}"><img src="{{site.static_url}}{{img}}" alt="{{post.title}}" /></a>
                                         </li>
                                         {% endfor %}
                                     </ul>
@@ -91,13 +91,13 @@ perPageItem: 10
                                 <div class="flexslider">
                                     <ul class="slides">
                                         <li>
-                                            <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work1.jpg" alt="" /></a>
+                                            <a href="singlepost.html"><img src="{{site.static_url}}/assets/img/dummies/work1.jpg" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work2.jpg" alt="" /></a>
+                                            <a href="singlepost.html"><img src="{{site.static_url}}/assets/img/dummies/work2.jpg" alt="" /></a>
                                         </li>
                                         <li>
-                                            <a href="singlepost.html"><img src="{{site.baseurl}}/assets/img/dummies/work3.jpg" alt="" /></a>
+                                            <a href="singlepost.html"><img src="{{site.static_url}}/assets/img/dummies/work3.jpg" alt="" /></a>
                                         </li>
                                     </ul>
                                 </div>

@@ -13,7 +13,7 @@ meta:
         name: 
         email: denghp@126.com
 
-static_url:  
+static_url: http://demi-panda.oss.aliyuncs.com
 url: 
 baseurl: 
 markdown: rdiscount
@@ -22,7 +22,7 @@ permalink: /:year/:month/:day/:title
 auto: true
 debug: true
 
-paginate: 15
+paginate: 20
 
 
 links:

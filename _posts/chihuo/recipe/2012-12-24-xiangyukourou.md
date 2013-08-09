@@ -24,8 +24,9 @@ UUID: 20121240027
 
 ###主材料
 猪肋条肉（五花肉）600克,芋头400克
+
 <a href="{{site.static_url}}/assets/images/chihuo/recipe/0230440080.jpg" alt="香芋扣肉" rel="prettyPhoto[{{page.UUID}}]">
-<img src="{{site.static_url}}/assets/images/chihuo/recipe/0230440080.jpg" width="330px"  alt="香芋扣肉" class="img-center"></img>
+<img src="{{site.static_url}}/assets/images/chihuo/recipe/0230440080.jpg"  alt="香芋扣肉" class="img-center"></img>
 </a>
 
 ###调料
