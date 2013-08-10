@@ -10,7 +10,7 @@ tags:
 categories:
 - chihuo
 - recipe
-- topic
+- special
 - life
 - archives
 data_type: meishi

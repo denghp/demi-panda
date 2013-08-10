@@ -6,7 +6,7 @@
             <!-- start flexslider -->
             <div class="flexslider">
                 <ul class="slides">
-                    {% for post in site.categories.topic limit:5 %}
+                    {% for post in site.categories.special limit:5 %}
                     <li>
                         <a href="{{ site.url}}{{post.url}}">
                         {% if post.images.size > 0 %}
@@ -28,7 +28,7 @@
 
             <div class="widget">
                 <ul class="cat">
-                    {% for post in site.categories.topic limit:5 %}
+                    {% for post in site.categories.special limit:5 %}
                     {% if post.short_title %}
                     <li><a href="{{site.baseurl}}{{post.url}}">{{post.short_title }}</a></li>
                     {% else %}
@@ -37,7 +37,7 @@
                     {% endfor %}
                 </ul>
             </div>
-            <a href="#">Learn more</a>
+            <a href="{{site.baseurl}}/special">Learn more</a>
         </aside>
     </div>
     <div class="span4 features">
@@ -56,7 +56,7 @@
                     {% endfor %}
                 </ul>
             </div>
-            <a href="{{site.baseurl}}/category/archives/">Learn more</a>
+            <a href="{{site.baseurl}}/archives/">Learn more</a>
         </aside>
     </div>
 </div>
@@ -64,7 +64,7 @@
 <div class="row">
     <ul class="portfolio-area da-thumbs">
         <div class="span12">
-            <h3><a href="{{site.baseurl}}/category/code/">研发推荐({{ site.categories.code | size }})</a></h3>
+            <h3><a href="{{site.baseurl}}/code/">研发推荐({{ site.categories.code | size }})</a></h3>
 
             <div class="solidline"></div>
         </div>
@@ -121,7 +121,7 @@
 <div class="row">
     <ul class="portfolio-area da-thumbs">
         <div class="span12">
-            <h3><a href="{{site.baseurl}}/category/chihuo/">熊猫吃货({{ site.categories.life | size }})</a></h3>
+            <h3><a href="{{site.baseurl}}/chihuo/">熊猫吃货({{ site.categories.life | size }})</a></h3>
 
             <div class="solidline"></div>
         </div>

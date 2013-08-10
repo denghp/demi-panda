@@ -9,7 +9,7 @@ categories:
 - linux
 - Hadoop
 - code
-- topic
+- special
 - archives
 UUID: 20130429001236
 date: 2013-04-29 00:12:36

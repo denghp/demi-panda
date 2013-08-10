@@ -669,7 +669,8 @@ aside .widget ul.cat li a:hover {
 aside .widget ul.recent-posts li {
     overflow:hidden;
     display:inline-block;
-
+    width: 100%;
+    float: left;
 }
 
 aside .widget ul.recent-posts li a{
@@ -881,7 +882,7 @@ ul.post-meta li{
 	list-style:none;
 	margin:0;
 	margin-right:20px;
-	font-size:11px;
+	font-size:12px;
 	
 }
 

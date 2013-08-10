@@ -7,7 +7,7 @@ tags:
 - 总结
 categories:
 - life
-- topic
+- special
 - archives
 data_type: web
 UUID: 20130201003700

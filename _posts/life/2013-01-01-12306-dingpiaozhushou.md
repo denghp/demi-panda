@@ -10,7 +10,7 @@ tags:
 - 订票插件
 categories:
 - life
-- topic
+- special
 - archives
 data_type: web
 UUID: 201301011537

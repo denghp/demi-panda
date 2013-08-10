@@ -34,6 +34,18 @@
     <script src="{{site.static_url}}/assets/js/sequence/sequence.jquery-min.js"></script>
     <script src="{{site.static_url}}/assets/js/sequence/setting.js"></script>
     -->
+    {% if page.url == '/archives/index.html' or page.url == '/archives' or page.url == '/code/index.html' or page.url == '/code'  %}
+    <script src="{{site.static_url}}/assets/js/bootstrap-paginator.min.js"></script>
+    <script src="{{site.static_url}}/assets/js/custom-paginator.js"></script>
+    {% endif %}
+    {% if page.url == '/chihuo/index.html' or page.url == '/chihuo' or page.url == '/special/index.html' or page.url == '/special'%}
+    <script src="{{site.static_url}}/assets/js/bootstrap-paginator.min.js"></script>
+    <script src="{{site.static_url}}/assets/js/custom-paginator.js"></script>
+    {% endif %}
+    {% if page.url == '/category/java.html' or page.url == '/category/linux.html' or page.url == '/category/search.html'%}
+    <script src="{{site.static_url}}/assets/js/bootstrap-paginator.min.js"></script>
+    <script src="{{site.static_url}}/assets/js/custom-paginator.js"></script>
+    {% endif %}
     <!-- Portfolio -->
     <script src="{{site.static_url}}/assets/js/portfolio/jquery.quicksand.js"></script>
     <script src="{{site.static_url}}/assets/js/portfolio/setting.js"></script>
@@ -41,12 +53,22 @@
     <script src="{{site.static_url}}/assets/js/hover/jquery-hover-effect.js"></script>
     <script src="{{site.static_url}}/assets/js/hover/setting.js"></script>
     <script src="{{site.static_url}}/assets/js/custom.js"></script>
+    <!--
+    {% if page.url != '/' and page.url != '/index.html' and page.url != '/404.html' and page.url != '/life' and page.url != '/life/index.html' and page.url != '/about.html' %}
+    <script src="{{site.static_url}}/assets/js/custom_duoshuo.js"></script>
+    {% endif %}
+    -->
     <!-- fav and touch icons  -->
     <link rel="shortcut icon" href="{{site.static_url}}/assets/img/favicon.ico">
 
 
 </head>
+{% if page.url != '/' and page.url != '/index.html' and page.url != '/404.html' and page.url != '/life' and page.url != '/life/index.html' and page.url != '/about.html' %}
+<body onload="removeElement()">
+{% else %}
 <body>
+{% endif %}
+pageurl: {{page.url}}
 {% include header.html %}
 
 <!-- content
@@ -56,6 +78,7 @@
 <!-- Footer
  ================================================== -->
 {% include footer.html %}
+{% if page.url != '/' and page.url != '/index.html' and page.url != '/404.html' and page.url != '/life' and page.url != '/life/index.html' %}
 <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
 <script type="text/javascript">
     var duoshuoQuery = {short_name:"demi-panda"};
@@ -67,6 +90,13 @@
         (document.getElementsByTagName('head')[0]
                 || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
+    function removeElement() {
+        var topList = document.getElementById("ds-top-threads");
+        console.log("topList : " + topList.childNodes);
+        topList.removeChild(topList.childNodes[0]);
+        console.log("remove topList.childNodes[0] OK");
+    }
 </script>
+{% endif %}
 </body>
 </html>

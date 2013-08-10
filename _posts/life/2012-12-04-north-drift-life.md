@@ -7,7 +7,7 @@ comment: true
 published: true
 categories:
 - life
-- topic
+- special
 - archives
 data_type: renwen
 images: ["/assets/images/life/pub/life-style.jpg"]

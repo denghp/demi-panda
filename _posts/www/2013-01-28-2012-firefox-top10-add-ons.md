@@ -7,7 +7,7 @@ tags:
 - Firefox附件组件
 categories:
 - code
-- topic
+- special
 - archives
 UUID: 20130128083000
 date: 2013-01-28 08:30:00

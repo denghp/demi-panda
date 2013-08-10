@@ -1,0 +1,28 @@
+---
+layout: default
+title: 全部热门标签
+---
+
+{% include emergency_news.html %}
+
+<section id="maincontent">
+    <div class="container">
+        <div class="row">
+            <div class="span8">
+                <div class="widget">
+                    <h4>Tags</h4>
+                    <ul class="tags">
+                        {% for tag in site.tags %}
+                        {% if tag[1].size >= 3 %}
+                        <li><a href="{{site.baseurl}}/tag/{{tag[0]}}" class="btn btn-link">{{tag[0]}}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="span4">
+                {% include aside.html %}
+            </div>
+        </div>
+    </div>
+</section>

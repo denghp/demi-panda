@@ -22,34 +22,43 @@
                                 <a href="{{site.baseurl}}/index.html">Home</a>
                             </li>
                             {% endif %}
-                            {% if page.url == '/category/archives/index.html' %}
+                            {% if page.url == '/archives/index.html' or page.url == '/archives' %}
                             <li class="dropdown active">
-                                <a href="{{site.baseurl}}category/archives/">文章列表</a>
+                                <a href="{{site.baseurl}}/archives/">文章列表</a>
                             </li>
                             {% else %}
                             <li class="dropdown ">
-                                <a href="{{site.baseurl}}/category/archives/">文章列表</a>
+                                <a href="{{site.baseurl}}/archives/">文章列表</a>
                             </li>
                             {% endif %}
-                            {% if page.url == '/category/code/index.html' %}
+                            {% if page.url == '/special/index.html' or page.url == '/special' %}
                             <li class="dropdown active">
-                                <a href="{{site.baseurl}}/category/code">研发实践</a>
+                                <a href="{{site.baseurl}}/special">热门推荐</a>
                             </li>
                             {% else %}
                             <li class="dropdown">
-                                <a href="{{site.baseurl}}/category/code">研发实践</a>
+                                <a href="{{site.baseurl}}/special">热门推荐</a>
                             </li>
                             {% endif %}
-                            {% if page.url == '/category/chihuo/index.html' %}
+                            {% if page.url == '/code/index.html' or page.url == '/code' %}
                             <li class="dropdown active">
-                                <a href="{{site.baseurl}}/category/chihuo">熊猫吃货</a>
+                                <a href="{{site.baseurl}}/code">研发实践</a>
                             </li>
                             {% else %}
                             <li class="dropdown">
-                                <a href="{{site.baseurl}}/category/chihuo">熊猫吃货</a>
+                                <a href="{{site.baseurl}}/code">研发实践</a>
                             </li>
                             {% endif %}
-                            {% if page.url == '/life/index.html' %}
+                            {% if page.url == '/chihuo/index.html' or page.url == '/chihuo' %}
+                            <li class="dropdown active">
+                                <a href="{{site.baseurl}}/chihuo">熊猫吃货</a>
+                            </li>
+                            {% else %}
+                            <li class="dropdown">
+                                <a href="{{site.baseurl}}/chihuo">熊猫吃货</a>
+                            </li>
+                            {% endif %}
+                            {% if page.url == '/life/index.html' or page.url == '/life' %}
                             <li class="dropdown active">
                                 <a href="{{site.baseurl}}/life/index.html">微生活</a>
                             </li>

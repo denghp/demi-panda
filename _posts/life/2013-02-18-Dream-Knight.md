@@ -7,7 +7,7 @@ tags:
 - 大众银行
 categories:
 - life
-- topic
+- special
 - archives
 data_type: renwen
 UUID: 20130218003712

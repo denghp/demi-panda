@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 全部文章-研发实践、熊猫吃货、微生活
+title: 搜索引擎研发经验
 ---
 
 {% include emergency_news.html %}
@@ -22,9 +22,9 @@ title: 全部文章-研发实践、熊猫吃货、微生活
     </div>
 </section>
 <script type="text/javascript">
-$(function () {
-    initJsonData("{{site.baseurl}}/json/archives.json");
-    getStartedInitialization(15);
-});
+    $(function () {
+        initJsonData("{{site.baseurl}}/json/search.json");
+        getStartedInitialization(15);
+    });
 
 </script>

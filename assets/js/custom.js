@@ -225,3 +225,4 @@ jQuery(document).ready(function($) {
 	$('#postCarousel').carousel()
 
 });
+

@@ -10,7 +10,7 @@ categories:
 - recipe
 - 湘菜
 - life
-- topic
+- special
 - archives
 data_type: meishi
 images: ["/assets/images/chihuo/recipe/xueya.jpg"]

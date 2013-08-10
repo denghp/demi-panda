@@ -11,7 +11,7 @@ categories:
 - chihuo
 - health
 - life
-- topic
+- special
 - archives
 data_type: health
 images: ["/assets/images/chihuo/health/ningmen.jpg"]
