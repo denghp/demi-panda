@@ -2,61 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d7e51ca-86e4-459e-b423-ffe1314de12f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/archives.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/chihuo.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/code.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/custom-paginator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/custom_duoshuo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archives/index-backup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chihuo/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/special/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tags/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/category/java.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/java.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/category/linux.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/linux.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/category/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/search.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json/special.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_plugins/cat_and_tag_generator.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/news.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/2012-05-06-taishan.md" afterPath="$PROJECT_DIR$/_posts/life/2012-05-06-taishan.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/2012-12-04-north-drift-life.md" afterPath="$PROJECT_DIR$/_posts/life/2012-12-04-north-drift-life.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/health/2012-12-22-dongji-yangyan.md" afterPath="$PROJECT_DIR$/_posts/chihuo/health/2012-12-22-dongji-yangyan.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-yongzhou-xueya.md" afterPath="$PROJECT_DIR$/_posts/chihuo/recipe/2012-12-24-yongzhou-xueya.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/2013-01-01-12306-dingpiaozhushou.md" afterPath="$PROJECT_DIR$/_posts/life/2013-01-01-12306-dingpiaozhushou.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/git/2013-01-24-github-via-dns.md" afterPath="$PROJECT_DIR$/_posts/git/2013-01-24-github-via-dns.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/linux/ubuntu/2013-01-27-download-monitor.md" afterPath="$PROJECT_DIR$/_posts/linux/ubuntu/2013-01-27-download-monitor.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/www/2013-01-28-2012-firefox-top10-add-ons.md" afterPath="$PROJECT_DIR$/_posts/www/2013-01-28-2012-firefox-top10-add-ons.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/linux/ubuntu/2013-01-29-programming-ides-for-ubuntu.md" afterPath="$PROJECT_DIR$/_posts/linux/ubuntu/2013-01-29-programming-ides-for-ubuntu.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/health/2013-01-30-top-8-sexy-ways-to-de-stress-during-the-holidays.md" afterPath="$PROJECT_DIR$/_posts/life/health/2013-01-30-top-8-sexy-ways-to-de-stress-during-the-holidays.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/java/2013-02-01-free-sql-server-monitoring-tool.md" afterPath="$PROJECT_DIR$/_posts/java/2013-02-01-free-sql-server-monitoring-tool.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/2013-02-01-my-site-seo.md" afterPath="$PROJECT_DIR$/_posts/life/2013-02-01-my-site-seo.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/2013-02-18-Dream-Knight.md" afterPath="$PROJECT_DIR$/_posts/life/2013-02-18-Dream-Knight.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/life/2013-02-19-wugongta.md" afterPath="$PROJECT_DIR$/_posts/life/2013-02-19-wugongta.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/nodejs/2013-02-27-nodejs-install.md" afterPath="$PROJECT_DIR$/_posts/nodejs/2013-02-27-nodejs-install.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/solr/2013-03-13-install-solr.md" afterPath="$PROJECT_DIR$/_posts/solr/2013-03-13-install-solr.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/linux/ubuntu/2013-03-20-liferea-rss-reader-for-ubuntu-users.md" afterPath="$PROJECT_DIR$/_posts/linux/ubuntu/2013-03-20-liferea-rss-reader-for-ubuntu-users.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/chihuo/recipe/2013-03-25-xiaochaorou.md" afterPath="$PROJECT_DIR$/_posts/chihuo/recipe/2013-03-25-xiaochaorou.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/solr/2013-03-30-solr-cloud-install.md" afterPath="$PROJECT_DIR$/_posts/solr/2013-03-30-solr-cloud-install.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/hadoop/2013-04-29-hadoop-deploy.md" afterPath="$PROJECT_DIR$/_posts/hadoop/2013-04-29-hadoop-deploy.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/aside.html" afterPath="$PROJECT_DIR$/_includes/aside.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/bootstrap-paginator.min.js" afterPath="$PROJECT_DIR$/assets/js/bootstrap-paginator.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/content-work.html" afterPath="$PROJECT_DIR$/_includes/content-work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example.html" afterPath="$PROJECT_DIR$/example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="$PROJECT_DIR$/archives/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demi-panda.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376094691899" ignored="false" />
+    <file path="/Dummy.txt" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376180013207" ignored="false" />
     <file path="/content-work.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376135359176" ignored="false" />
     <file path="/index.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376150884843" ignored="false" />
     <file path="/default.html" changelist="6d7e51ca-86e4-459e-b423-ffe1314de12f" time="1376150304231" ignored="false" />
@@ -525,6 +476,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -561,7 +513,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -608,10 +559,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1299" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -641,7 +592,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -769,12 +719,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
+              <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -815,6 +766,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -843,19 +807,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -869,13 +820,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -897,6 +841,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -935,13 +886,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="65" y="24" width="1299" height="715" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -961,6 +911,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1031,30 +982,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/json/search.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="61" selection-end="61" vertical-scroll-proportion="0.18545455">
-          <folding />
-        </state>
+        <state line="6" column="37" selection-start="61" selection-end="61" vertical-scroll-proportion="0.18545455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json/linux.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="60" selection-end="60" vertical-scroll-proportion="0.18545455">
-          <folding />
-        </state>
+        <state line="6" column="36" selection-start="60" selection-end="60" vertical-scroll-proportion="0.18545455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="662" selection-end="662" vertical-scroll-proportion="0.33938295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="139" selection-start="4612" selection-end="4612" vertical-scroll-proportion="-10.692307">
-          <folding />
-        </state>
+        <state line="26" column="57" selection-start="662" selection-end="662" vertical-scroll-proportion="0.33938295" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
@@ -1062,16 +1000,6 @@
         <state line="82" column="19" selection-start="4556" selection-end="4556" vertical-scroll-proportion="-10.461538">
           <folding>
             <element signature="tag#article#0;tag#div#0;tag#div#0;tag#div#0;tag#section#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="12" selection-start="4419" selection-end="4419" vertical-scroll-proportion="-13.076923">
-          <folding>
-            <element signature="tag#article#0;tag#div#0;tag#div#0;tag#div#0;tag#section#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#section#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1143,7 +1071,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/aside.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="7" selection-start="3098" selection-end="3098" vertical-scroll-proportion="2.2254546">
+        <state line="72" column="7" selection-start="3098" selection-end="3098" vertical-scroll-proportion="2.2254546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="12" selection-start="4419" selection-end="4419" vertical-scroll-proportion="1.4818182">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#section#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="44" selection-start="4806" selection-end="4806" vertical-scroll-proportion="0.30363637">
           <folding />
         </state>
       </provider>
