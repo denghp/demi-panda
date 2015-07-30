@@ -22,7 +22,8 @@ pygments: true
 permalink: /:year/:month/:day/:title
 auto: true
 debug: true
-
+ 
+ 
 countPerPage: 15
 
 links:
